@@ -2,9 +2,9 @@
 var telBot = require('./telegramBot')
 var watson = require('./watsonConversation')
 
-telBot.start((session) => {
-    watson.responseUser(session.message.text, (response) => {
+telBot.start((msg) => {
+    watson.responseUser(msg.text, (response) => {
         console.log(response)
-        session.send(response.generic[0].text)
+        telBot.send(response)
     })
 })

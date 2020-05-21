@@ -17,10 +17,6 @@ assistant.createSession({
 })
     .then(res => {
         sessionId = res.result.session_id;
-        sendMessage({
-            messageType: 'text',
-            text: '',
-        }); // start conversation with empty message
     })
     .catch(err => {
         console.log(err); // something went wrong
