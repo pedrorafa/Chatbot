@@ -1,0 +1,18 @@
+{
+    "name": "Local - LGPD",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "f1c3aee0-957f-11ea-8377-d730ca59e999",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\pedro.rafael\\OneDrive - Genial Investimentos\\Documentos\\ftt\\Local - LGPD.bot",
+    "overrides": null
+}
