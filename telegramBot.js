@@ -10,7 +10,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 
 var telegramBot = new tbot(process.env.API_TOKEN_TELEGRAM, { polling: true });
 
-initBot = () => {
+initBot = (responseFunction) => {
     if (typeof (responseFunction) !== 'function') {
         console.error("pass a response function for init bot!")
     }
