@@ -1,14 +1,29 @@
 {
   "intents": [
     {
-      "intent": "General_Positive_Feedback",
+      "intent": "When",
       "examples": [
         {
-          "text": "Brilliant!"
+          "text": "Queria saber quando ela come far a valid"
         },
         {
-          "text": "Can't believe you are that good"
-        },
+          "text": "Até quando tener que atualizar mess system as?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How",
+      "examples": [
+        {
+          "text": "Como deixo meus dados seguros?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
         {
           "text": "How cool is this?"
         },
@@ -59,6 +74,12 @@
         },
         {
           "text": "You've been so helpful :)"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
         }
       ],
       "description": "Express positive sentiment or gratitude."
@@ -67,115 +88,31 @@
       "intent": "General_Ending",
       "examples": [
         {
-          "text": "I am leaving"
+          "text": "Até"
         },
         {
-          "text": "Bye bye"
+          "text": "até mais"
         },
         {
-          "text": "Bye now"
+          "text": "adeus"
         },
         {
-          "text": "Catch you later"
+          "text": "foi bom falar com vc"
         },
         {
-          "text": "Cya later"
+          "text": "Tchauzinho"
         },
         {
-          "text": "End trial"
+          "text": "flw"
         },
         {
-          "text": "Ending this session"
+          "text": "falou"
         },
         {
-          "text": "Finished now, good bye"
+          "text": "Tchau tchau"
         },
         {
-          "text": "Get lost"
-        },
-        {
-          "text": "Go away"
-        },
-        {
-          "text": "Go off"
-        },
-        {
-          "text": "Going now"
-        },
-        {
-          "text": "Good. bye."
-        },
-        {
-          "text": "Goodbye"
-        },
-        {
-          "text": "Have a nice day?"
-        },
-        {
-          "text": "Hey bot go away"
-        },
-        {
-          "text": "I am out of here"
-        },
-        {
-          "text": "I d like to stop doing this"
-        },
-        {
-          "text": "I have got to go"
-        },
-        {
-          "text": "I want to quit"
-        },
-        {
-          "text": "I'm done"
-        },
-        {
-          "text": "Im done"
-        },
-        {
-          "text": "Im good thank you"
-        },
-        {
-          "text": "I'm leaving now"
-        },
-        {
-          "text": "It was nice chatting with you"
-        },
-        {
-          "text": "Ok goodbye"
-        },
-        {
-          "text": "See you later"
-        },
-        {
-          "text": "See you"
-        },
-        {
-          "text": "Shut up"
-        },
-        {
-          "text": "Stop doing this"
-        },
-        {
-          "text": "Stop talking to me"
-        },
-        {
-          "text": "Thank you for your time"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thanks very much, bye!"
-        },
-        {
-          "text": "That is all"
-        },
-        {
-          "text": "That's everything"
-        },
-        {
-          "text": "Time to go"
+          "text": "Tchau"
         }
       ],
       "description": "End the conversation."
@@ -184,7 +121,28 @@
       "intent": "What_is",
       "examples": [
         {
+          "text": "Quais são os principios da LGPD?"
+        },
+        {
+          "text": "EM QUE SÃO PAUTADOS OS PRINCÍPIOS DA LGPD?"
+        },
+        {
+          "text": "pod me salary sobre fundamentals?"
+        },
+        {
+          "text": "O que so fundamentals?"
+        },
+        {
           "text": "O que é a LGPD?"
+        },
+        {
+          "text": "Ela se pauta em que?"
+        },
+        {
+          "text": "Quais são seus principios?"
+        },
+        {
+          "text": "Qual é o artigo 2"
         }
       ],
       "description": ""
@@ -193,154 +151,115 @@
       "intent": "General_Greetings",
       "examples": [
         {
-          "text": "Hey there all"
-        },
-        {
-          "text": "Hey there"
-        },
-        {
-          "text": "Hey twin"
-        },
-        {
-          "text": "Hey you"
-        },
-        {
-          "text": "Hi advisor"
-        },
-        {
-          "text": "Hi there"
-        },
-        {
-          "text": "How are things going?"
-        },
-        {
-          "text": "How are you today?"
-        },
-        {
-          "text": "How have you been?"
-        },
-        {
-          "text": "How is it going?"
-        },
-        {
-          "text": "How r u?"
-        },
-        {
-          "text": "Looking good eve"
-        },
-        {
-          "text": "Ok take me back"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": "What's up?"
-        },
-        {
-          "text": "Who is this?"
-        },
-        {
-          "text": "You there"
+          "text": "Oiii"
         },
         {
           "text": "Oi"
         },
         {
-          "text": "Hello"
+          "text": "Olá"
         },
         {
-          "text": "Hello I am looking for some help here"
+          "text": "Tudo bem?"
         },
         {
-          "text": "Hello Agent"
+          "text": "Como vai?"
         },
         {
-          "text": "Have you been well?"
+          "text": "Bom dia"
         },
         {
-          "text": "Greetings"
+          "text": "Boa tarde"
         },
         {
-          "text": "Good to see you"
+          "text": "Boa noite"
         },
         {
-          "text": "Good morning"
+          "text": "Eai"
         },
         {
-          "text": "Good evening"
+          "text": "Beleza?"
         },
         {
-          "text": "Hey how are you doing"
+          "text": "Eiii"
         },
         {
-          "text": "Good day"
+          "text": "Fala ai"
         }
       ],
       "description": "Greet the bot."
     },
     {
+      "intent": "Who",
+      "examples": [
+        {
+          "text": "A quem se aplica a LGPD?"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "General_Negative_Feedback",
       "examples": [
         {
-          "text": "You do not seem smart"
-        },
-        {
-          "text": "Everyone hates you"
-        },
-        {
-          "text": "Hate you"
-        },
-        {
-          "text": "I do not like you"
-        },
-        {
-          "text": "I hate this!"
-        },
-        {
-          "text": "I hate you"
-        },
-        {
-          "text": "It is annoying"
-        },
-        {
-          "text": "Quit annoying me"
-        },
-        {
-          "text": "Robots are boring"
-        },
-        {
-          "text": "Robots are stupid"
-        },
-        {
-          "text": "Stupid"
-        },
-        {
-          "text": "Why are you so annoying?"
-        },
-        {
-          "text": "Why are you stupid?"
-        },
-        {
-          "text": "You are having delusions"
-        },
-        {
-          "text": "You are on my nerves"
-        },
-        {
-          "text": "You are very frustrating"
-        },
-        {
-          "text": "You're really frustrating"
+          "text": "You're too stupid"
         },
         {
           "text": "You're really irritating"
         },
         {
-          "text": "You're too stupid"
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
         },
         {
           "text": "Do not like you?"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Stupid"
         }
       ],
       "description": "Express unfavorable feedback."
@@ -349,118 +268,31 @@
       "intent": "General_Connect_to_Agent",
       "examples": [
         {
-          "text": "Operator please"
+          "text": "não quero mais falar com um robo"
         },
         {
-          "text": "Please assist me to get to an agent"
+          "text": "tem como me direcionar para um agente?"
         },
         {
-          "text": "Agent help"
+          "text": "Quero falar com o gerente"
         },
         {
-          "text": "A real agent, please."
+          "text": "Quero falar com um atentende"
         },
         {
-          "text": "Please connect me to a live agent"
+          "text": "Posso falar com um ser humano???"
         },
         {
-          "text": "Please let me talk to a human being."
+          "text": "Vocês tem pessoas para me atender?"
         },
         {
-          "text": "Pls connect"
+          "text": "Não tá me ajudando, quero falar com uma pessoa"
         },
         {
-          "text": "Put me through to someone"
+          "text": "Que transfere para um atendente"
         },
         {
-          "text": "Send me to an agent"
-        },
-        {
-          "text": "Where is the closest agent?"
-        },
-        {
-          "text": "Yes, take me to a real person"
-        },
-        {
-          "text": "Can I talk to someone?"
-        },
-        {
-          "text": "Can I speak with somebody?"
-        },
-        {
-          "text": "Can I speak to an advisor?"
-        },
-        {
-          "text": "Can I speak to a live person?"
-        },
-        {
-          "text": "Can I speak to a human please?"
-        },
-        {
-          "text": "Can I connect to an agent?"
-        },
-        {
-          "text": "Can you assist me to connect to an agent?"
-        },
-        {
-          "text": "Call agent"
-        },
-        {
-          "text": "Can you connect me with a real person?"
-        },
-        {
-          "text": "Connect me to a live operator please."
-        },
-        {
-          "text": "Contact person"
-        },
-        {
-          "text": "Could you please transfer me to your master?"
-        },
-        {
-          "text": "Customer service representative please."
-        },
-        {
-          "text": "Do not want a robot?"
-        },
-        {
-          "text": "Hi can you transfer me"
-        },
-        {
-          "text": "How can I skip the recorded menu and go straight to a live person?"
-        },
-        {
-          "text": "I don't want to talk to a bot."
-        },
-        {
-          "text": "I don't want to talk to you"
-        },
-        {
-          "text": "I need to speak to a representative. How would I go about doing so?"
-        },
-        {
-          "text": "I want a manager"
-        },
-        {
-          "text": "I want agent"
-        },
-        {
-          "text": "I want an agent to help me"
-        },
-        {
-          "text": "I want to talk to a person"
-        },
-        {
-          "text": "I would like to speak to a human"
-        },
-        {
-          "text": "I would like to speak to someone"
-        },
-        {
-          "text": "Is there anyone there I can actually talk to for real?"
-        },
-        {
-          "text": "Need help from human"
+          "text": "Posso falar com uma pessoa"
         }
       ],
       "description": "Request a human agent."
@@ -472,31 +304,146 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "no",
-          "synonyms": [
-            "não"
-          ]
-        },
-        {
-          "type": "synonyms",
           "value": "yes",
           "synonyms": [
             "sim",
             "ok",
             "quero"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "não"
+          ]
         }
       ],
       "fuzzy_match": true
     },
     {
-      "entity": "sys-number",
-      "values": [],
+      "entity": "dado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "publico",
+          "synonyms": [
+            "dados publicos",
+            "dados abertos",
+            "dado aberto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pessoal",
+          "synonyms": [
+            "dados privado",
+            "dado pessoal"
+          ]
+        }
+      ],
       "fuzzy_match": true
     },
     {
-      "entity": "sys-location",
-      "values": [],
+      "entity": "artigo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Art. 3",
+          "synonyms": [
+            "artigo 3",
+            "artigo tres",
+            "art 3",
+            "artigo terceiro",
+            "art3",
+            "artigo3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Art. 1",
+          "synonyms": [
+            "artigo 1",
+            "artigo um",
+            "artigo primeiro",
+            "art 1",
+            "art1",
+            "artigo1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Art. 2",
+          "synonyms": [
+            "artigo 2",
+            "artigo segundo",
+            "artigo dois",
+            "art 2",
+            "art2",
+            "artigo2"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "definicao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "definicao",
+          "synonyms": [
+            "definicoes",
+            "especificacoes",
+            "detalhes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LGPD",
+          "synonyms": [
+            "Lei geral de proteção de dados"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "artigo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lei",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ator",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "controlador",
+          "synonyms": [
+            "provedor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "executor",
+          "synonyms": [
+            "operador",
+            "usuario"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "proprietario",
+          "synonyms": [
+            "dono"
+          ]
+        }
+      ],
       "fuzzy_match": true
     },
     {
@@ -509,17 +456,62 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "privacidade",
+          "value": "Adequação",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fundamento",
           "synonyms": [
-            "privado"
+            "principios",
+            "fundamentos",
+            "origens",
+            "pauta"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Qualidade",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Transparência",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Segurança",
+          "synonyms": [
+            "privado",
+            "privacidade"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "N_discriminacao",
+          "synonyms": [
+            "Não discriminação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Responsabilizacao",
+          "synonyms": [
+            "Responsabilização"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prevenção",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finalidade",
+          "synonyms": []
         }
       ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "sys-time",
-      "values": [],
       "fuzzy_match": true
     }
   ],
@@ -540,13 +532,53 @@
   "dialog_nodes": [
     {
       "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A LGPD é definida através de diversos pontos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "conditions": "@definicao:definicao",
+      "dialog_node": "node_2_1589842789712"
+    },
+    {
+      "type": "standard",
+      "title": "Finalidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todo o tratamento de dados pessoais tem que ter o seu propósito legitimado e especificação precisa e coerente para a correta utilização, além de não omitir nenhum fato de sua finalidade ao titular"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Finalidade",
+      "dialog_node": "node_4_1589844624397",
+      "previous_sibling": "node_5_1589844901367"
+    },
+    {
+      "type": "standard",
       "title": "Privacidade",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Privacidade é"
+                "text": "Cada dado pessoal deve ter sua proteção garantida por medidas técnicas e administrativas capazes de resguardar acessos não permitidos e casos de vazamento acidental ou proposital, além de perdas, vendas, modificações e qualquer compartilhamento indevido"
               }
             ],
             "response_type": "text",
@@ -554,19 +586,20 @@
           }
         ]
       },
-      "parent": "node_5_1589496736846",
-      "conditions": "@fundamentos:privacidade",
-      "dialog_node": "node_6_1589496812733"
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Segurança",
+      "dialog_node": "node_6_1589496812733",
+      "previous_sibling": "node_4_1589844624397"
     },
     {
       "type": "standard",
-      "title": "Fundamentos",
+      "title": "Responsabilizacao",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "A LGPD"
+                "text": "O detentor dos dados e responsável pelo tratamento deve demonstrar que as ações protetivas e outras medidas tomadas para o cumprimento das normas de segurança são eficazes"
               }
             ],
             "response_type": "text",
@@ -574,9 +607,99 @@
           }
         ]
       },
-      "conditions": "#What_is && @fundamentos",
-      "dialog_node": "node_5_1589496736846",
-      "previous_sibling": "node_2_1589497216522"
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Responsabilizacao",
+      "dialog_node": "node_5_1589844901367"
+    },
+    {
+      "type": "folder",
+      "title": "Fundamentos",
+      "parent": "node_9_1589544747938",
+      "conditions": "@fundamentos",
+      "dialog_node": "node_9_1589578283762",
+      "previous_sibling": "node_8_1589842636169"
+    },
+    {
+      "type": "folder",
+      "title": "Definições",
+      "parent": "node_9_1589544747938",
+      "conditions": "@definicao || @dado || @ator",
+      "dialog_node": "node_8_1589842636169",
+      "previous_sibling": "node_10_1590102202139"
+    },
+    {
+      "type": "folder",
+      "title": "Artigos",
+      "parent": "node_9_1589544747938",
+      "conditions": "",
+      "dialog_node": "node_10_1590102202139"
+    },
+    {
+      "type": "standard",
+      "title": "Art.2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A legislação brasileira estabelece suas direções sobre como o tratamento de dados pessoais poderão ser realizados baseado nos seguintes fundamentos: Finalidade, Adequação, Transparência, Qualidade, Segurança, Prevenção, Não discriminação e Responsabilização"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1589844901367"
+      },
+      "conditions": "@artigo:(Art. 2) || @fundamentos || @fundamentos:Fundamento",
+      "dialog_node": "node_1_1590103040782",
+      "previous_sibling": "node_10_1589544803578"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@artigo:(Art. 3)",
+      "dialog_node": "node_9_1590104450118",
+      "previous_sibling": "node_1_1590103040782"
+    },
+    {
+      "type": "standard",
+      "title": "Art.1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A LGPD é a Lei Geral de Proteção de Dados e tem como objetivos regulamentar o tratamento de dados no Brasil, eu também conheço seus princípios e definições"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@artigo:(Art. 1) || @definicao:LGPD || @definicao:lei",
+      "dialog_node": "node_10_1589544803578"
     },
     {
       "type": "standard",
@@ -594,14 +717,15 @@
           }
         ]
       },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_9_1589496620533"
-      },
       "conditions": "#General_Greetings",
       "dialog_node": "node_9_1588888466041",
-      "previous_sibling": "node_5_1589496736846"
+      "previous_sibling": "node_9_1589544747938"
+    },
+    {
+      "type": "standard",
+      "title": "Aplicacao da Lei",
+      "dialog_node": "node_7_1589844462826",
+      "previous_sibling": "Welcome"
     },
     {
       "type": "standard",
@@ -627,36 +751,16 @@
       },
       "conditions": "anything_else",
       "dialog_node": "Anything else",
-      "previous_sibling": "node_9_1589496620533",
+      "previous_sibling": "node_9_1588888466041",
       "disambiguation_opt_out": true
     },
     {
-      "type": "standard",
-      "title": "LGPD",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "LGPD é a lei"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
+      "type": "folder",
+      "title": "O que é",
       "conditions": "#What_is",
-      "dialog_node": "node_2_1589497216522",
-      "previous_sibling": "Welcome"
-    },
-    {
-      "type": "standard",
-      "title": "Sobre Mim",
-      "conditions": "#General_About_You",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_9_1589496620533",
-      "previous_sibling": "node_9_1588888466041"
+      "digress_in": "returns",
+      "dialog_node": "node_9_1589544747938",
+      "previous_sibling": "node_7_1589844462826"
     },
     {
       "type": "standard",
@@ -681,6 +785,9 @@
   "counterexamples": [
     {
       "text": "dgagfasdgfaed"
+    },
+    {
+      "text": "sim"
     }
   ],
   "system_settings": {
