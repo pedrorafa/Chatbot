@@ -1,321 +1,313 @@
 {
-   "intents":[
-      {
-         "intent":"When",
-         "examples":[
-            {
-               "text":"Queria saber quando ela come far a valid"
-            },
-            {
-               "text":"Até quando tener que atualizar mess system as?"
-            }
-         ],
-         "description":""
-      },
-      {
-         "intent":"How",
-         "examples":[
-            {
-               "text":"Como deixo meus dados seguros?"
-            }
-         ],
-         "description":""
-      },
-      {
-         "intent":"General_Positive_Feedback",
-         "examples":[
-            {
-               "text":"Como isso é legal"
-            },
-            {
-               "text":"Gostei da conversa"
-            },
-            {
-               "text":"Acho que vou falar com você mais vezes"
-            },
-            {
-               "text":"Amei"
-            },
-            {
-               "text":"Ok Obrigado"
-            },
-            {
-               "text":"Obrigado"
-            },
-            {
-               "text":"isso é bom"
-            },
-            {
-               "text":"Otimo"
-            },
-            {
-               "text":"Bacana"
-            },
-            {
-               "text":"Vc é demais"
-            },
-            {
-               "text":"Você é ótimo"
-            },
-            {
-               "text":"voce é o melhor"
-            },
-            {
-               "text":"voce é maravilhoso"
-            },
-            {
-               "text":"isso é exatamento o que eu precisava"
-            },
-            {
-               "text":"mandou bem"
-            },
-            {
-               "text":"voce é genial"
-            },
-            {
-               "text":"foi muito util"
-            },
-            {
-               "text":"não consigo acreditar como me ajudou"
-            },
-            {
-               "text":"brilhante"
-            }
-         ],
-         "description":"Expressa sentimento positivo ou gratidão."
-      },
-      {
-         "intent":"General_Ending",
-         "examples":[
-            {
-               "text":"Até"
-            },
-            {
-               "text":"até mais"
-            },
-            {
-               "text":"adeus"
-            },
-            {
-               "text":"foi bom falar com vc"
-            },
-            {
-               "text":"Tchauzinho"
-            },
-            {
-               "text":"flw"
-            },
-            {
-               "text":"falou"
-            },
-            {
-               "text":"Tchau tchau"
-            },
-            {
-               "text":"Tchau"
-            }
-         ],
-         "description":"final da conversa."
-      },
-      {
-         "intent":"What_is",
-         "examples":[
-            {
-               "text":"Quais são os principios da LGPD?"
-            },
-            {
-               "text":"EM QUE SÃO PAUTADOS OS PRINCÍPIOS DA LGPD?"
-            },
-            {
-               "text":"pod me salary sobre fundamentals?"
-            },
-            {
-               "text":"O que so fundamentals?"
-            },
-            {
-               "text":"O que é a LGPD?"
-            },
-            {
-               "text":"Ela se pauta em que?"
-            },
-            {
-               "text":"Quais são seus principios?"
-            },
-            {
-               "text":"Qual é o artigo 2"
-            }
-         ],
-         "description":""
-      },
-      {
-         "intent":"General_Greetings",
-         "examples":[
-            {
-               "text":"Oiii"
-            },
-            {
-               "text":"Oi"
-            },
-            {
-               "text":"Olá"
-            },
-            {
-               "text":"Tudo bem?"
-            },
-            {
-               "text":"Como vai?"
-            },
-            {
-               "text":"Bom dia"
-            },
-            {
-               "text":"Boa tarde"
-            },
-            {
-               "text":"Boa noite"
-            },
-            {
-               "text":"Eai"
-            },
-            {
-               "text":"Beleza?"
-            },
-            {
-               "text":"Eiii"
-            },
-            {
-               "text":"Fala ai"
-            }
-         ],
-         "description":"Saudação ao bot"
-      },
-      {
-         "intent":"Who",
-         "examples":[
-            {
-               "text":"A quem se aplica a LGPD?"
-            }
-         ],
-         "description":""
-      },
-      {
-         "intent":"General_Negative_Feedback",
-         "examples":[
-            {
-               "text":"Estupido"
-            },
-            {
-               "text":"vc é irritante"
-            },
-            {
-               "text":"frustração"
-            },
-            {
-               "text":"não é muito inteligente"
-            },
-            {
-               "text":"isso foi inutil"
-            },
-            {
-               "text":"so me irritou"
-            },
-            {
-               "text":"pq vc é tao burro?"
-            },
-            {
-               "text":"pq é tao irritante?"
-            },
-            {
-               "text":"não gostei de vc"
-            },
-            {
-               "text":"Robo idiota"
-            },
-            {
-               "text":"Robo chato"
-            },
-            {
-               "text":"fui, isso me estressa"
-            },
-            {
-               "text":"te odeio"
-            },
-            {
-               "text":"nao gosto de vc"
-            },
-            {
-               "text":"odeio vc"
-            },
-            {
-               "text":"todo mundo de odeia"
-            },
-            {
-               "text":"seu pedaço de merda"
-            }
-         ],
-         "description":"Expressa feedback negativo"
-      },
-      {
-         "intent":"General_Connect_to_Agent",
-         "examples":[
-            {
-               "text":"não quero mais falar com um robo"
-            },
-            {
-               "text":"tem como me direcionar para um agente?"
-            },
-            {
-               "text":"Quero falar com o gerente"
-            },
-            {
-               "text":"Quero falar com um atentende"
-            },
-            {
-               "text":"Posso falar com um ser humano???"
-            },
-            {
-               "text":"Vocês tem pessoas para me atender?"
-            },
-            {
-               "text":"Não tá me ajudando, quero falar com uma pessoa"
-            },
-            {
-               "text":"Que transfere para um atendente"
-            },
-            {
-               "text":"Posso falar com uma pessoa"
-            }
-         ],
-         "description":"Pede atendimento humano"
-      }
-   ],
-  "entities": [
+  "intents": [
     {
-      "entity": "dado",
-      "values": [
+      "intent": "Who",
+      "examples": [
         {
-          "type": "synonyms",
-          "value": "publico",
-          "synonyms": [
-            "dados publicos",
-            "dados abertos",
-            "dado aberto"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "pessoal",
-          "synonyms": [
-            "dados privado",
-            "dado pessoal"
-          ]
+          "text": "A quem se aplica a LGPD?"
         }
       ],
+      "description": ""
+    },
+    {
+      "intent": "What_is",
+      "examples": [
+        {
+          "text": "Ela se pauta em que?"
+        },
+        {
+          "text": "Quais são seus principios?"
+        },
+        {
+          "text": "O que é a LGPD?"
+        },
+        {
+          "text": "Qual é o artigo 2"
+        },
+        {
+          "text": "Qual é o artigo 6"
+        },
+        {
+          "text": "Quais são os principios da LGPD?"
+        },
+        {
+          "text": "EM QUE SÃO PAUTADOS OS PRINCÍPIOS DA LGPD?"
+        },
+        {
+          "text": "pod me salary sobre fundamentals?"
+        },
+        {
+          "text": "O que so fundamentals?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Estupido"
+        },
+        {
+          "text": "vc é irritante"
+        },
+        {
+          "text": "frustração"
+        },
+        {
+          "text": "não é muito inteligente"
+        },
+        {
+          "text": "isso foi inutil"
+        },
+        {
+          "text": "so me irritou"
+        },
+        {
+          "text": "pq vc é tao burro?"
+        },
+        {
+          "text": "pq é tao irritante?"
+        },
+        {
+          "text": "não gostei de vc"
+        },
+        {
+          "text": "Robo idiota"
+        },
+        {
+          "text": "Robo chato"
+        },
+        {
+          "text": "nao gosto de vc"
+        },
+        {
+          "text": "odeio vc"
+        },
+        {
+          "text": "todo mundo de odeia"
+        },
+        {
+          "text": "seu pedaço de merda"
+        },
+        {
+          "text": "te odeio"
+        },
+        {
+          "text": "fui, isso me estressa"
+        }
+      ],
+      "description": "Expressa feedback negativo"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Até"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Tchau tchau"
+        },
+        {
+          "text": "falou"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "Tchauzinho"
+        },
+        {
+          "text": "foi bom falar com vc"
+        },
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "até mais"
+        }
+      ],
+      "description": "final da conversa."
+    },
+    {
+      "intent": "When",
+      "examples": [
+        {
+          "text": "Até quando tener que atualizar mess system as?"
+        },
+        {
+          "text": "Queria saber quando ela come far a valid"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How",
+      "examples": [
+        {
+          "text": "Como deixo meus dados seguros?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Oiii"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Eai"
+        },
+        {
+          "text": "Beleza?"
+        },
+        {
+          "text": "Eiii"
+        },
+        {
+          "text": "Fala ai"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Tudo bem?"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Oi"
+        }
+      ],
+      "description": "Saudação ao bot"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "voce é genial"
+        },
+        {
+          "text": "Como isso é legal"
+        },
+        {
+          "text": "Gostei da conversa"
+        },
+        {
+          "text": "Acho que vou falar com você mais vezes"
+        },
+        {
+          "text": "Amei"
+        },
+        {
+          "text": "Ok Obrigado"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "isso é bom"
+        },
+        {
+          "text": "Otimo"
+        },
+        {
+          "text": "Bacana"
+        },
+        {
+          "text": "Vc é demais"
+        },
+        {
+          "text": "Você é ótimo"
+        },
+        {
+          "text": "voce é o melhor"
+        },
+        {
+          "text": "voce é maravilhoso"
+        },
+        {
+          "text": "isso é exatamento o que eu precisava"
+        },
+        {
+          "text": "mandou bem"
+        },
+        {
+          "text": "foi muito util"
+        },
+        {
+          "text": "não consigo acreditar como me ajudou"
+        },
+        {
+          "text": "brilhante"
+        }
+      ],
+      "description": "Expressa sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Não tá me ajudando, quero falar com uma pessoa"
+        },
+        {
+          "text": "Posso falar com uma pessoa"
+        },
+        {
+          "text": "Que transfere para um atendente"
+        },
+        {
+          "text": "Vocês tem pessoas para me atender?"
+        },
+        {
+          "text": "Posso falar com um ser humano???"
+        },
+        {
+          "text": "Quero falar com um atentende"
+        },
+        {
+          "text": "Quero falar com o gerente"
+        },
+        {
+          "text": "tem como me direcionar para um agente?"
+        },
+        {
+          "text": "não quero mais falar com um robo"
+        }
+      ],
+      "description": "Pede atendimento humano"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-person",
+      "values": [],
       "fuzzy_match": true
     },
     {
       "entity": "ator",
       "values": [
+        {
+          "type": "synonyms",
+          "value": "proprietario",
+          "synonyms": [
+            "dono"
+          ]
+        },
         {
           "type": "synonyms",
           "value": "controlador",
@@ -330,12 +322,27 @@
             "operador",
             "usuario"
           ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "não"
+          ]
         },
         {
           "type": "synonyms",
-          "value": "proprietario",
+          "value": "yes",
           "synonyms": [
-            "dono"
+            "sim",
+            "ok",
+            "quero"
           ]
         }
       ],
@@ -344,11 +351,6 @@
     {
       "entity": "fundamentos",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "Qualidade",
-          "synonyms": []
-        },
         {
           "type": "synonyms",
           "value": "Transparência",
@@ -400,34 +402,17 @@
             "origens",
             "pauta"
           ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "reply",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "yes",
-          "synonyms": [
-            "sim",
-            "ok",
-            "quero"
-          ]
         },
         {
           "type": "synonyms",
-          "value": "no",
-          "synonyms": [
-            "não"
-          ]
+          "value": "Qualidade",
+          "synonyms": []
         }
       ],
       "fuzzy_match": true
     },
     {
-      "entity": "sys-person",
+      "entity": "sys-number",
       "values": [],
       "fuzzy_match": true
     },
@@ -464,8 +449,26 @@
       "fuzzy_match": true
     },
     {
-      "entity": "sys-number",
-      "values": [],
+      "entity": "dado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pessoal",
+          "synonyms": [
+            "dados privado",
+            "dado pessoal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "publico",
+          "synonyms": [
+            "dados publicos",
+            "dados abertos",
+            "dado aberto"
+          ]
+        }
+      ],
       "fuzzy_match": true
     }
   ],
@@ -484,6 +487,29 @@
     }
   ],
   "dialog_nodes": [
+    {
+      "type": "folder",
+      "title": "Fundamentos",
+      "parent": "node_9_1589544747938",
+      "conditions": "@fundamentos",
+      "dialog_node": "node_9_1589578283762",
+      "previous_sibling": "node_8_1589842636169"
+    },
+    {
+      "type": "folder",
+      "title": "Definições",
+      "parent": "node_9_1589544747938",
+      "conditions": "@definicao || @dado || @ator",
+      "dialog_node": "node_8_1589842636169",
+      "previous_sibling": "node_10_1590102202139"
+    },
+    {
+      "type": "folder",
+      "title": "Artigos",
+      "parent": "node_9_1589544747938",
+      "conditions": "",
+      "dialog_node": "node_10_1590102202139"
+    },
     {
       "type": "standard",
       "output": {
@@ -505,7 +531,7 @@
     },
     {
       "type": "standard",
-      "title": "Art.3",
+      "title": "Art. 39",
       "output": {
         "generic": [
           {
@@ -520,9 +546,891 @@
         ]
       },
       "parent": "node_10_1590102202139",
-      "conditions": "@definicao:artigo && @sys-number:3",
-      "dialog_node": "node_9_1590104450118",
-      "previous_sibling": "node_1_1590103040782"
+      "conditions": "@definicao:artigo && @sys-number:39",
+      "dialog_node": "node_artigo_39",
+      "previous_sibling": "node_artigo_38"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 11",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:11",
+      "dialog_node": "node_artigo_11",
+      "previous_sibling": "node_artigo_10"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 14",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:14",
+      "dialog_node": "node_artigo_14",
+      "previous_sibling": "node_artigo_13"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 62",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:62",
+      "dialog_node": "node_artigo_62",
+      "previous_sibling": "node_artigo_61"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 6",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:6",
+      "dialog_node": "node_artigo_6",
+      "previous_sibling": "node_artigo_5"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 10",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:10",
+      "dialog_node": "node_artigo_10",
+      "previous_sibling": "node_artigo_9"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 63",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:63",
+      "dialog_node": "node_artigo_63",
+      "previous_sibling": "node_artigo_62"
+    },
+    {
+      "type": "standard",
+      "title": "Art.4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@artigo:(Art.4)",
+      "dialog_node": "node_3_1590111521629",
+      "previous_sibling": "node_9_1590104450118"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 46",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:46",
+      "dialog_node": "node_artigo_46",
+      "previous_sibling": "node_artigo_45"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 27",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:27",
+      "dialog_node": "node_artigo_27",
+      "previous_sibling": "node_artigo_26"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 51",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:51",
+      "dialog_node": "node_artigo_51",
+      "previous_sibling": "node_artigo_50"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 23",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:23",
+      "dialog_node": "node_artigo_23",
+      "previous_sibling": "node_artigo_22"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 8",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:8",
+      "dialog_node": "node_artigo_8",
+      "previous_sibling": "node_artigo_7"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 53",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:53",
+      "dialog_node": "node_artigo_53",
+      "previous_sibling": "node_artigo_52"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 45",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:45",
+      "dialog_node": "node_artigo_45",
+      "previous_sibling": "node_artigo_44"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 16",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:16",
+      "dialog_node": "node_artigo_16",
+      "previous_sibling": "node_artigo_15"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 17",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:17",
+      "dialog_node": "node_artigo_17",
+      "previous_sibling": "node_artigo_16"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 60",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:60",
+      "dialog_node": "node_artigo_60",
+      "previous_sibling": "node_artigo_59"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 64",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:64",
+      "dialog_node": "node_artigo_64",
+      "previous_sibling": "node_artigo_63"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 13",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:13",
+      "dialog_node": "node_artigo_13",
+      "previous_sibling": "node_artigo_12"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 28",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:28",
+      "dialog_node": "node_artigo_28",
+      "previous_sibling": "node_artigo_27"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 49",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:49",
+      "dialog_node": "node_artigo_49",
+      "previous_sibling": "node_artigo_48"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 35",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:35",
+      "dialog_node": "node_artigo_35",
+      "previous_sibling": "node_artigo_34"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 29",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:29",
+      "dialog_node": "node_artigo_29",
+      "previous_sibling": "node_artigo_28"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 42",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:42",
+      "dialog_node": "node_artigo_42",
+      "previous_sibling": "node_artigo_41"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 33",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:33",
+      "dialog_node": "node_artigo_33",
+      "previous_sibling": "node_artigo_32"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 52",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:52",
+      "dialog_node": "node_artigo_52",
+      "previous_sibling": "node_artigo_51"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 47",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:47",
+      "dialog_node": "node_artigo_47",
+      "previous_sibling": "node_artigo_46"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 61",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:61",
+      "dialog_node": "node_artigo_61",
+      "previous_sibling": "node_artigo_60"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 56",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:56",
+      "dialog_node": "node_artigo_56",
+      "previous_sibling": "node_artigo_55"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 21",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:21",
+      "dialog_node": "node_artigo_21",
+      "previous_sibling": "node_artigo_20"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 26",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:26",
+      "dialog_node": "node_artigo_26",
+      "previous_sibling": "node_artigo_25"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 12",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:12",
+      "dialog_node": "node_artigo_12",
+      "previous_sibling": "node_artigo_11"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 50",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:50",
+      "dialog_node": "node_artigo_50",
+      "previous_sibling": "node_artigo_49"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 58",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:58",
+      "dialog_node": "node_artigo_58",
+      "previous_sibling": "node_artigo_57"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 54",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:54",
+      "dialog_node": "node_artigo_54",
+      "previous_sibling": "node_artigo_53"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:5",
+      "dialog_node": "node_artigo_5",
+      "previous_sibling": "node_3_1590111521629"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 24",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:24",
+      "dialog_node": "node_artigo_24",
+      "previous_sibling": "node_artigo_23"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 55",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:55",
+      "dialog_node": "node_artigo_55",
+      "previous_sibling": "node_artigo_54"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 38",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:38",
+      "dialog_node": "node_artigo_38",
+      "previous_sibling": "node_artigo_37"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 37",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:37",
+      "dialog_node": "node_artigo_37",
+      "previous_sibling": "node_artigo_36"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 32",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:32",
+      "dialog_node": "node_artigo_32",
+      "previous_sibling": "node_artigo_31"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 19",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:19",
+      "dialog_node": "node_artigo_19",
+      "previous_sibling": "node_artigo_18"
     },
     {
       "type": "standard",
@@ -552,7 +1460,7 @@
     },
     {
       "type": "standard",
-      "title": "Art.4",
+      "title": "Art. 44",
       "output": {
         "generic": [
           {
@@ -567,9 +1475,429 @@
         ]
       },
       "parent": "node_10_1590102202139",
-      "conditions": "@artigo:(Art.4)",
-      "dialog_node": "node_3_1590111521629",
-      "previous_sibling": "node_9_1590104450118"
+      "conditions": "@definicao:artigo && @sys-number:44",
+      "dialog_node": "node_artigo_44",
+      "previous_sibling": "node_artigo_43"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 40",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:40",
+      "dialog_node": "node_artigo_40",
+      "previous_sibling": "node_artigo_39"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 22",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:22",
+      "dialog_node": "node_artigo_22",
+      "previous_sibling": "node_artigo_21"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 15",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:15",
+      "dialog_node": "node_artigo_15",
+      "previous_sibling": "node_artigo_14"
+    },
+    {
+      "type": "standard",
+      "title": "Art. não existente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A lei está definida em 65 artigos, começando pelo artigo 1º"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number > 65 || @definicao:artigo && @sys-number < 1",
+      "dialog_node": "node_4_1590419398607",
+      "previous_sibling": "node_4_1590419354649"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 57",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:57",
+      "dialog_node": "node_artigo_57",
+      "previous_sibling": "node_artigo_56"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 59",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:59",
+      "dialog_node": "node_artigo_59",
+      "previous_sibling": "node_artigo_58"
+    },
+    {
+      "type": "standard",
+      "title": "Art.3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:3",
+      "dialog_node": "node_9_1590104450118",
+      "previous_sibling": "node_1_1590103040782"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 25",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:25",
+      "dialog_node": "node_artigo_25",
+      "previous_sibling": "node_artigo_24"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 9",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:9",
+      "dialog_node": "node_artigo_9",
+      "previous_sibling": "node_artigo_8"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 7",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:7",
+      "dialog_node": "node_artigo_7",
+      "previous_sibling": "node_artigo_6"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 34",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:34",
+      "dialog_node": "node_artigo_34",
+      "previous_sibling": "node_artigo_33"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 36",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:36",
+      "dialog_node": "node_artigo_36",
+      "previous_sibling": "node_artigo_35"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 18",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:18",
+      "dialog_node": "node_artigo_18",
+      "previous_sibling": "node_artigo_17"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 43",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:43",
+      "dialog_node": "node_artigo_43",
+      "previous_sibling": "node_artigo_42"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 31",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:31",
+      "dialog_node": "node_artigo_31",
+      "previous_sibling": "node_artigo_30"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 41",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:41",
+      "dialog_node": "node_artigo_41",
+      "previous_sibling": "node_artigo_40"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 20",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:20",
+      "dialog_node": "node_artigo_20",
+      "previous_sibling": "node_artigo_19"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 30",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:30",
+      "dialog_node": "node_artigo_30",
+      "previous_sibling": "node_artigo_29"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 65",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:65",
+      "dialog_node": "node_4_1590419354649",
+      "previous_sibling": "node_artigo_64"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 48",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:48",
+      "dialog_node": "node_artigo_48",
+      "previous_sibling": "node_artigo_47"
     },
     {
       "type": "standard",
@@ -590,29 +1918,6 @@
       "parent": "node_10_1590102202139",
       "conditions": "@definicao:artigo && @sys-number:1 || @definicao:lgpd",
       "dialog_node": "node_10_1589544803578"
-    },
-    {
-      "type": "folder",
-      "title": "Fundamentos",
-      "parent": "node_9_1589544747938",
-      "conditions": "@fundamentos",
-      "dialog_node": "node_9_1589578283762",
-      "previous_sibling": "node_8_1589842636169"
-    },
-    {
-      "type": "folder",
-      "title": "Definições",
-      "parent": "node_9_1589544747938",
-      "conditions": "@definicao || @dado || @ator",
-      "dialog_node": "node_8_1589842636169",
-      "previous_sibling": "node_10_1590102202139"
-    },
-    {
-      "type": "folder",
-      "title": "Artigos",
-      "parent": "node_9_1589544747938",
-      "conditions": "",
-      "dialog_node": "node_10_1590102202139"
     },
     {
       "type": "standard",
@@ -677,30 +1982,12 @@
       "dialog_node": "node_5_1589844901367"
     },
     {
-      "type": "standard",
-      "title": "Saudações",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Oi, posso te ajuda com a LGPD?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "conditions": "#General_Greetings",
-      "dialog_node": "node_9_1588888466041",
-      "previous_sibling": "node_9_1589544747938"
-    },
-    {
-      "type": "standard",
-      "title": "Aplicacao da Lei",
-      "dialog_node": "node_7_1589844462826",
-      "previous_sibling": "Welcome"
+      "type": "folder",
+      "title": "O que é",
+      "conditions": "#What_is",
+      "digress_in": "returns",
+      "dialog_node": "node_9_1589544747938",
+      "previous_sibling": "node_7_1589844462826"
     },
     {
       "type": "standard",
@@ -730,12 +2017,30 @@
       "disambiguation_opt_out": true
     },
     {
-      "type": "folder",
-      "title": "O que é",
-      "conditions": "#What_is",
-      "digress_in": "returns",
-      "dialog_node": "node_9_1589544747938",
-      "previous_sibling": "node_7_1589844462826"
+      "type": "standard",
+      "title": "Aplicacao da Lei",
+      "dialog_node": "node_7_1589844462826",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Saudações",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, posso te ajuda com a LGPD?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_9_1588888466041",
+      "previous_sibling": "node_9_1589544747938"
     },
     {
       "type": "standard",
@@ -782,8 +2087,7 @@
     },
     "human_agent_assist": {
       "prompt": "Did you mean:"
-    },
-    "spelling_auto_correct": true
+    }
   },
   "learning_opt_out": false,
   "name": "V2",

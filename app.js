@@ -21,4 +21,12 @@ telBot.start((msg) => {
 
 
 // var json = require('./watson/skill-V2.json')
-// console.log(json)
+// var helper = require('./watson/skillHelper')
+// var jsonData = JSON.stringify(helper.module.addDialogNode(json))
+
+// var fs = require('fs');
+// fs.writeFile("./watson/skill.json", jsonData, function(err) {
+//     if (err) {
+//         console.log(err);
+//     }
+// });
