@@ -10,6 +10,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
     console.log('%s listening to %s', server.name, server.url);
 });
 server.get('/',(req, res, next) => { res.send('This server is a channel to LGPD - Bot')})
+server.get('/home',(req, res, next) => { res.send('<h1>082150246 - PEDRO RAFAEL DOS SANTOS</h1>')})
 
 telBot.start((msg) => {
     watson.responseUser(msg.text, (response) => {
