@@ -2,6 +2,8 @@ require('dotenv').config({ silent: true });
 const Assistant = require('ibm-watson/assistant/v2');
 const { IamAuthenticator } = require('ibm-watson/auth');
 
+const mongo  = require('./mongoDbDataConnection')
+
 var contexts = undefined;
 var sessionId = undefined;
 var workspace = process.env.WORKSPACE_ID || '';
@@ -39,6 +41,14 @@ responseUserInput = (sessionMsg, sendFunction) => {
         .then(response => {
             sendFunction(response.result.output);
             assistantContext.watsonContext = response.context;
+
+            let message = {
+                sessionId: payload.sessionId,
+                input: payload.input.text,
+                intents:response.result.output.intents,
+                entities:response.result.output.entities
+            }
+            mongo.saveMessage(message)
         })
         .catch(err => {
             console.log(err)
