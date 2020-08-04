@@ -13,7 +13,6 @@ server.get('/',(req, res, next) => { res.send('This server is a channel to LGPD 
 
 telBot.start((msg) => {
     watson.responseUser(msg.text, (response) => {
-        console.log(response)
         telBot.send(response)
     })
 })

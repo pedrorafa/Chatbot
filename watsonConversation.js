@@ -46,7 +46,8 @@ responseUserInput = (sessionMsg, sendFunction) => {
                 sessionId: payload.sessionId,
                 input: payload.input.text,
                 intents:response.result.output.intents,
-                entities:response.result.output.entities
+                entities:response.result.output.entities,
+                output:response.result.output.text
             }
             mongo.saveMessage(message)
         })
