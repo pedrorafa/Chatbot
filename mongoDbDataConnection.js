@@ -17,7 +17,13 @@ saveMessage = (payload) => {
     if (err) return console.log(err)
   })
 }
+saveError = (error) => {
+  db.collection('error').save(error, (err, result) => {
+    if (err) return console.log(err)
+  })
+}
 
 module.exports = {
-  saveMessage: (payload) => saveMessage(payload)
+  saveMessage: (payload) => saveMessage(payload),
+  saveError: (error) => saveError(error)
 }

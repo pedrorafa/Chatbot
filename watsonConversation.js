@@ -55,11 +55,8 @@ responseUserInput = (sessionMsg, sendFunction) => {
             mongo.saveMessage(message)
         })
         .catch(err => {
-            getSession()
-                .then(() => {
-                    getSession()
-                    responseUserInput(sessionMsg, sendFunction);
-                })
+            getSession().then(() => responseUserInput(sessionMsg, sendFunction));
+            mongo.saveError(err)
         });
 }
 
