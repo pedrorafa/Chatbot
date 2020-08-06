@@ -27,6 +27,19 @@ getSession = async () => {
         });
 }
 
+const endQuestions = [
+    '\nNo que posso te ajudar?',
+    '\nPosso ajudar em mais algo?',
+    '\nTem mais alguma dúvida?'
+]
+getEndQuestions = () => {
+    let min = Math.ceil(0);
+    let max = Math.floor(endQuestions.length);
+    let index = Math.floor(Math.random() * (max - min)) + min;
+
+    return endQuestions[index]
+}
+
 //assistant Response to user treat
 responseUserInput = (sessionMsg, sendFunction) => {
     var assistantContext = findOrCreateContext(sessionId);
@@ -45,7 +58,7 @@ responseUserInput = (sessionMsg, sendFunction) => {
             let output = response.result.output.generic[0].text;
 
             if (response.result.output.intents.find(e => e.intent != 'General_Ending'))
-                output += '\nNo que posso te ajudar?'
+                output += getEndQuestions()
 
             sendFunction(output);
             assistantContext.watsonContext = response.context;
