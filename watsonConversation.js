@@ -2,7 +2,7 @@ require('dotenv').config({ silent: true });
 const Assistant = require('ibm-watson/assistant/v2');
 const { IamAuthenticator } = require('ibm-watson/auth');
 
-const mongo  = require('./mongoDbDataConnection')
+const mongo = require('./mongoDbDataConnection')
 
 var contexts = undefined;
 var sessionId = undefined;
@@ -14,15 +14,17 @@ const assistant = new Assistant({
     version: '2018-09-19'
 });
 
-assistant.createSession({
-    assistantId,
-})
-    .then(res => {
-        sessionId = res.result.session_id;
+getSession = async () => {
+    assistant.createSession({
+        assistantId,
     })
-    .catch(err => {
-        console.log(err); // something went wrong
-    });
+        .then(res => {
+            sessionId = res.result.session_id;
+        })
+        .catch(err => {
+            console.log(err); // something went wrong
+        });
+}
 
 //assistant Response to user treat
 responseUserInput = (sessionMsg, sendFunction) => {
@@ -45,17 +47,21 @@ responseUserInput = (sessionMsg, sendFunction) => {
             let message = {
                 sessionId: payload.sessionId,
                 input: payload.input.text,
-                intents:response.result.output.intents,
-                entities:response.result.output.entities,
-                output:response.result.output.generic[0].text
+                intents: response.result.output.intents,
+                entities: response.result.output.entities,
+                output: response.result.output.generic[0].text
             }
             mongo.saveMessage(message)
         })
         .catch(err => {
-            console.log(err)
-            sendFunction(err);
-        });;
+            getSession()
+                .then(() => {
+                    getSession()
+                    responseUserInput(sessionMsg, sendFunction);
+                })
+        });
 }
+
 
 //Find assistant context
 findOrCreateContext = (convId) => {
@@ -73,7 +79,9 @@ findOrCreateContext = (convId) => {
 }
 
 module.exports = {
-    assistant: assistant,
+    sessionId: sessionId,
+    sessionExpired: assistant,
+    getSession: () => getSession(),
     responseUser: (sessionMsg, sendFunction) =>
         responseUserInput(sessionMsg, sendFunction)
 }
