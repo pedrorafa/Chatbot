@@ -13,7 +13,7 @@ server.use(restify.plugins.bodyParser({ mapParams: true }));
 server.get('/', (req, res, next) => { res.send('This server is a channel to LGPD - Bot') })
 
 server.post('/watson', (req, res, next) => {
-    watson.responseUser(req.body.msg || 'Desculpa, mas não tenho resposta para isso no momento',
+    watson.responseUser(req.body.input || 'Desculpa, mas não tenho resposta para isso no momento',
         (response) => {
             res.send(response)
         })
