@@ -39,7 +39,7 @@ responseUserInput = (sessionMsg, sendFunction) => {
 
     assistant.message(payload)
         .then(response => {
-            sendFunction(response.result.output);
+            sendFunction(response.result.output.generic[0].text);
             assistantContext.watsonContext = response.context;
 
             let message = {
@@ -47,7 +47,7 @@ responseUserInput = (sessionMsg, sendFunction) => {
                 input: payload.input.text,
                 intents:response.result.output.intents,
                 entities:response.result.output.entities,
-                output:response.result.output.text
+                output:response.result.output.generic[0].text
             }
             mongo.saveMessage(message)
         })

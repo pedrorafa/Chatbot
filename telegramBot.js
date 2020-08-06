@@ -17,9 +17,7 @@ initBot = (responseFunction) => {
 }
 
 sendMessage = (response) => {
-    context = response.context;
-    console.log(response)
-    telegramBot.sendMessage(chatId, response.generic[0].text);
+    telegramBot.sendMessage(chatId, response);
 }
 
 module.exports = {
