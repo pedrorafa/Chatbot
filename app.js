@@ -19,9 +19,9 @@ server.post('/watson', (req, res, next) => {
         })
 })
 
-// telBot.start((msg) => {
-//     watson.responseUser(msg.text || 'Desculpa, mas não tenho resposta para isso no momento',
-//         (response) => {
-//             telBot.send(response)
-//         })
-// })
+telBot.start((msg) => {
+    watson.responseUser(msg.text || 'Desculpa, mas não tenho resposta para isso no momento',
+        (response) => {
+            telBot.send(response)
+        })
+})
