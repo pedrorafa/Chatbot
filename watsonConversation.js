@@ -20,6 +20,7 @@ getSession = async () => {
     })
         .then(res => {
             sessionId = res.result.session_id;
+            return sessionId
         })
         .catch(err => {
             console.log(err); // something went wrong
