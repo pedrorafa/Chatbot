@@ -42,7 +42,12 @@ responseUserInput = (sessionMsg, sendFunction) => {
 
     assistant.message(payload)
         .then(response => {
-            sendFunction(response.result.output.generic[0].text);
+            let output = response.result.output.generic[0].text;
+
+            if (response.result.output.intents.find(e => e.intent != 'General_Ending'))
+                output += '\nNo que posso te ajudar?'
+
+            sendFunction(output);
             assistantContext.watsonContext = response.context;
 
             let message = {
@@ -50,7 +55,7 @@ responseUserInput = (sessionMsg, sendFunction) => {
                 input: payload.input.text,
                 intents: response.result.output.intents,
                 entities: response.result.output.entities,
-                output: response.result.output.generic[0].text
+                output: output
             }
             mongo.saveMessage(message)
         })
