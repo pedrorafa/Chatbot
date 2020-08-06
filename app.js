@@ -12,7 +12,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 server.get('/',(req, res, next) => { res.send('This server is a channel to LGPD - Bot')})
 
 telBot.start((msg) => {
-    watson.responseUser(msg.text, (response) => {
+    watson.responseUser(msg.text || 'Desculpa, mas não tenho resposta para isso no momento', (response) => {
         telBot.send(response)
     })
 })
