@@ -15,7 +15,7 @@ const assistant = new Assistant({
 });
 
 getSession = async () => {
-    assistant.createSession({
+    return await assistant.createSession({
         assistantId,
     })
         .then(res => {
@@ -24,6 +24,7 @@ getSession = async () => {
         })
         .catch(err => {
             console.log(err); // something went wrong
+            return 0
         });
 }
 
@@ -41,7 +42,7 @@ getEndQuestions = () => {
 }
 
 //assistant Response to user treat
-responseUserInput = (sessionMsg, sendFunction) => {
+responseUserInput = (sessionMsg, sessionId, sendFunction) => {
     var assistantContext = findOrCreateContext(sessionId);
     if (!assistantContext)
         assistantContext = {};
@@ -73,7 +74,9 @@ responseUserInput = (sessionMsg, sendFunction) => {
             mongo.saveMessage(message)
         })
         .catch(err => {
-            getSession().then(() => responseUserInput(sessionMsg, sendFunction));
+            getSession().then(data => {
+                responseUserInput(sessionMsg, data, sendFunction)
+            });
             mongo.saveError(err)
         });
 }
@@ -98,6 +101,6 @@ module.exports = {
     sessionId: sessionId,
     sessionExpired: assistant,
     getSession: () => getSession(),
-    responseUser: (sessionMsg, sendFunction) =>
-        responseUserInput(sessionMsg, sendFunction)
+    responseUser: (sessionMsg, sessionId, sendFunction) =>
+        responseUserInput(sessionMsg, sessionId, sendFunction)
 }
