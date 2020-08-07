@@ -19,12 +19,15 @@ getSession = async () => {
         assistantId,
     })
         .then(res => {
-            sessionId = res.result.session_id;
-            return sessionId
+            this.sessionId = res.result.session_id;
+            return this.sessionId
         })
         .catch(err => {
             console.log(err); // something went wrong
-            return 0
+
+            mongo.saveError(err)
+
+            return ''
         });
 }
 
@@ -48,43 +51,53 @@ getEndQuestions = () => {
 }
 
 //assistant Response to user treat
-responseUserInput = (sessionMsg, sessionId, sendFunction) => {
+responseUserInput = async (sessionMsg, sessionId = undefined) => {
+    sessionId = sessionId || this.sessionId || await getSession()
+
     var assistantContext = findOrCreateContext(sessionId);
     if (!assistantContext)
         assistantContext = {};
 
     var payload = {
         assistantId: assistantId,
-        sessionId: sessionId || this.sessionId,
+        sessionId: sessionId,
         context: assistantContext.watsonContext,
         input: { text: sessionMsg }
     };
 
-    assistant.message(payload)
+    return await assistant.message(payload)
         .then(response => {
-            let output = response.result.output.generic[0].text || 'Desculpa, mas não tenho resposta para isso no momento';
+            let output = '';
+            if (response.result.output.generic)
+                response.result.output.generic.forEach(o => {
+                    output += o.text + '\n'
+                });
 
-            if (response.result.output.intents.find(e => e.intent != 'General_Ending'))
-                output += getEndQuestions()
+            if (output === '') output = 'Desculpa, mas não tenho resposta para isso no momento';
 
-            sendFunction(output);
-            assistantContext.watsonContext = response.context;
+            let mainIntent = response.result.output.intents
+                .find(i => i.confidence >= 0.6) || { intent: 'NotFound' };
 
             let message = {
                 sessionId: payload.sessionId,
                 input: payload.input.text,
-                intents: response.result.output.intents,
+                intent: mainIntent.intent,
                 entities: response.result.output.entities,
                 output: output
             }
-            mongo.saveMessage(message)
+            mongo.saveMessage(message);
+
+            if (response.result.output.intents.find(e => e.intent != 'General_Ending'))
+                output += getEndQuestions()
+
+            assistantContext.watsonContext = response.context;
+            return { text: output, sessionId: sessionId }
         })
-        .catch(err => {
-            getSession().then(data => {
-                this.sessionId = data;
-                responseUserInput(sessionMsg, data, sendFunction);
-            });
+        .catch(async err => {
             mongo.saveError(err)
+            console.log(err)
+            this.sessionId = undefined;
+            return await responseUserInput(sessionMsg, undefined);
         });
 }
 
@@ -107,6 +120,6 @@ findOrCreateContext = (convId) => {
 module.exports = {
     sessionId: sessionId,
     getSession: () => getSession(),
-    responseUser: (sessionMsg, sessionId, sendFunction) =>
-        responseUserInput(sessionMsg, sessionId, sendFunction)
+    responseUser: (sessionMsg, sessionId = undefined) =>
+        responseUserInput(sessionMsg, sessionId)
 }

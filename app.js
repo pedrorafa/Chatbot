@@ -13,17 +13,19 @@ server.use(restify.plugins.bodyParser({ mapParams: true }));
 server.get('/', (req, res, next) => { res.send('This server is a channel to LGPD - Bot') })
 
 server.get('/getSession', (req, res, next) => {
-    watson.getSession().then(data => {
+    watson.getSession()
+    .then(data => {
         res.send(data)
     })
+    .catch(err => console.log(err))
 })
 server.post('/message', (req, res, next) => {
-    watson.responseUser(req.body.input,
-        req.body.sessionId,
-        (response) => {
-            res.send(response)
-            actualSessionId = watson.sessionId
-        })
+    watson.responseUser(req.body.input, req.body.sessionId)
+    .then(data => {
+        console.log(data)
+        res.send(data)
+    })    
+    .catch(err => console.log(err))
 })
 
 telBot.start();
