@@ -16,7 +16,7 @@ initBot = () => {
         chatId = msg.chat.id;
         
         watsonTelBot.responseUser(
-            msg.text || 'Desculpa, mas não tenho resposta para isso no momento',
+            msg.text,
             watsonTelBot.sessionId,
             (response) => {
                 sendMessage(response)

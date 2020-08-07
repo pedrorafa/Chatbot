@@ -18,7 +18,7 @@ server.get('/getSession', (req, res, next) => {
     })
 })
 server.post('/message', (req, res, next) => {
-    watson.responseUser(req.body.input || 'Desculpa, mas não tenho resposta para isso no momento',
+    watson.responseUser(req.body.input,
         req.body.sessionId,
         (response) => {
             res.send(response)

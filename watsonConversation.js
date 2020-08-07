@@ -56,7 +56,7 @@ responseUserInput = (sessionMsg, sessionId, sendFunction) => {
 
     assistant.message(payload)
         .then(response => {
-            let output = response.result.output.generic[0].text;
+            let output = response.result.output.generic[0].text || 'Desculpa, mas não tenho resposta para isso no momento';
 
             if (response.result.output.intents.find(e => e.intent != 'General_Ending'))
                 output += getEndQuestions()
