@@ -49,7 +49,7 @@ responseUserInput = (sessionMsg, sessionId, sendFunction) => {
 
     var payload = {
         assistantId: assistantId,
-        sessionId: sessionId,
+        sessionId: sessionId || this.sessionId,
         context: assistantContext.watsonContext,
         input: { text: sessionMsg }
     };
@@ -75,7 +75,8 @@ responseUserInput = (sessionMsg, sessionId, sendFunction) => {
         })
         .catch(err => {
             getSession().then(data => {
-                responseUserInput(sessionMsg, data, sendFunction)
+                this.sessionId = data;
+                responseUserInput(sessionMsg, data, sendFunction);
             });
             mongo.saveError(err)
         });
@@ -99,7 +100,6 @@ findOrCreateContext = (convId) => {
 
 module.exports = {
     sessionId: sessionId,
-    sessionExpired: assistant,
     getSession: () => getSession(),
     responseUser: (sessionMsg, sessionId, sendFunction) =>
         responseUserInput(sessionMsg, sessionId, sendFunction)
