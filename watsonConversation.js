@@ -29,9 +29,15 @@ getSession = async () => {
 }
 
 const endQuestions = [
-    '\nNo que posso te ajudar?',
+    '\nNo que mais posso te ajudar?',
     '\nPosso ajudar em mais algo?',
-    '\nTem mais alguma dúvida?'
+    '\nTem mais alguma dúvida?',
+    '\nQuer perguntar mais alguma coisa?',
+    '\nTem mais dúvidas?',
+    '\nPosso reposnder mais alguma questão?',
+    '\nComo posso continuar te ajudando?',
+    '\nTem mais perguntas?',
+    '\nO que mais gostaria de saber?'
 ]
 getEndQuestions = () => {
     let min = Math.ceil(0);
