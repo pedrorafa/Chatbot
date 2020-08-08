@@ -1,4 +1,3 @@
-// var msBot = require('./microsoftBotFramework')
 var telBot = require('./telegramBot')
 var watson = require('./watsonConversation')
 
