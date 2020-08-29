@@ -15,7 +15,12 @@ initBot = () => {
     telegramBot.on('message', (msg) => {
         if (msg.text != '/start')
             watsonTelBot.responseUser(msg.text).then(result => {
-                telegramBot.sendMessage(msg.chat.id, result.text)
+                let msgs = result.text.split(',');
+
+                for (let i = msgs.lenght - 1; i >= 0, i--) {
+                    if (msgs[i])
+                        telegramBot.sendMessage(msg.chat.id, msgs[i])
+                };
             })
     });
     telegramBot.on("polling_error", (err) => console.log(err));
