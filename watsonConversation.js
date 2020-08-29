@@ -88,7 +88,7 @@ responseUserInput = async (sessionMsg, sessionId = undefined) => {
             mongo.saveMessage(message);
 
             if (response.result.output.intents.find(e => e.intent != 'General_Ending'))
-                output += getEndQuestions()
+                output += '\n' + getEndQuestions()
 
             assistantContext.watsonContext = response.context;
             return { text: output, sessionId: sessionId }
