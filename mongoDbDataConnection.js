@@ -12,18 +12,34 @@ MongoClient.connect(uri, (err, client) => {
   db = client.db(dbName)
 })
 
-saveMessage = (payload) => {
+const saveMessage = (payload) => {
   db.collection('messages').save(payload, (err, result) => {
     if (err) return console.log(err)
   })
 }
-saveError = (error) => {
+const saveError = (error) => {
   db.collection('error').save(error, (err, result) => {
     if (err) return console.log(err)
   })
 }
 
+const register = async (user, hash) => {
+  return await db.collection('users').insert({user: user, hash: hash}, (err, result) => {
+    if (err) return console.log(err)
+    return result
+  })
+}
+const login = async (user, hash) => {
+  return await db.collection('users').find({user: user, hash: hash}).toArray()
+}
+const getMessages = async () => {
+  return await db.collection('messages').find({}).toArray()
+}
+
 module.exports = {
   saveMessage: (payload) => saveMessage(payload),
-  saveError: (error) => saveError(error)
+  saveError: (error) => saveError(error),
+  register: async (user, hash) => await register(user, hash),
+  login: async (user, hash) => await login(user, hash),
+  getMessages: async () => await getMessages()
 }
