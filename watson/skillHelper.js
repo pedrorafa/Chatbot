@@ -1,29 +1,30 @@
-addDialogNode = (skill) => {
+
+reportDialogToCsv = () => {
+    let skill = require('./skill.json');
+
+    let csv = [];
     let i = 0;
-    for (i = 4; i < 65; i++)
-        skill.dialog_nodes.push({
-            "type": "standard",
-            "title": "Art. " + i,
-            "output": {
-                "generic": [
-                    {
-                        "values": [
-                            {
-                                "text": "Desculpe ainda estou aprendendo sobre a lei"
-                            }
-                        ],
-                        "response_type": "text",
-                        "selection_policy": "sequential"
-                    }
-                ]
-            },
-            "parent": "node_10_1590102202139",
-            "conditions": "@definicao:artigo && @sys-number:" + i,
-            "dialog_node": "node_artigo_" + i,
-            "previous_sibling": "node_artigo_" + (i - 1)
-        })
-    return skill
+    for (i = 0; i < skill.dialog_nodes.length; i++) {
+        let conditions = []
+        if (skill.dialog_nodes[i].parent)
+            conditions.push(skill.dialog_nodes.find(d => d.dialog_node === skill.dialog_nodes[i].parent).conditions)
+
+        conditions.push(skill.dialog_nodes[i].conditions)
+        let item = {
+            conditions: conditions,
+            responses: []
+        }
+
+        if (skill.dialog_nodes[i].output && skill.dialog_nodes[i].output.generic)
+            skill.dialog_nodes[i].output.generic.forEach(g => {
+                item.responses.push(g.values[0].text)
+            })
+
+        csv.push(item)
+    }
+    return csv
 }
-exports.module = {
-    addDialogNode: addDialogNode
+
+module.exports = {
+    reportDialogToCsv: () => { return reportDialogToCsv(); },
 }

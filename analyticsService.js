@@ -1,5 +1,6 @@
 require('dotenv').config({ silent: true });
 const mongo = require('./mongoDbDataConnection')
+const helper = require('./watson/skillHelper')
 
 const bcrypt = require('bcrypt');
 
@@ -16,5 +17,9 @@ module.exports = {
     },
     getMessages: async () => {
         return await mongo.getMessages()
+    },
+    
+    getReportDialogToCsv: async () => {
+        return await helper.reportDialogToCsv()
     }
 }

@@ -1,5 +1,5 @@
-const telBot = require('./telegramBot')
-telBot.start();
+// const telBot = require('./telegramBot')
+// telBot.start();
 
 const watson = require('./watsonConversation')
 
@@ -8,7 +8,7 @@ const analytics = require('./analyticsService')
 const restify = require('restify');
 const jwt = require('jsonwebtoken');
 const verifyJWT = (req, res, next) => {
-    var token = req.headers['authorization'].substring(7);
+    var token = req.headers.authorization.replace("Bearer ", "");
     if (!token) return res.send(401);
 
     jwt.verify(token, process.env.SECRET, function (err, decoded) {
@@ -28,7 +28,6 @@ server.get('/', (req, res, next) => { res.send('This server is a channel to LGPD
 
 
 server.post('/api/login', (req, res, next) => {
-    console.log(req.body)
     analytics.login(req.body.user, req.body.pass)
         .then(data => {
             if (!data[0])
@@ -51,6 +50,12 @@ server.get('/api/messages', verifyJWT, (req, res, next) => {
             res.send(data)
         })
 })
+server.get('/api/bot/reportDialog', verifyJWT, (req, res, next) => {
+    analytics.getReportDialogToCsv()
+        .then(data => {
+            res.send(data)
+        })
+})
 
 server.get('/getSession', (req, res, next) => {
     watson.getSession()
@@ -66,3 +71,12 @@ server.post('/message', (req, res, next) => {
         })
         .catch(err => console.log(err))
 })
+
+//SWAGGER
+// var restifySwaggerJsdoc = require('restify-swagger-jsdoc');
+// restifySwaggerJsdoc.createSwaggerPage({
+//     title: 'API LGPDúvidas', 
+//     version: '1.0.0', 
+//     server: server, 
+//     path: '/docs/swagger' 
+// });

@@ -1,0 +1,3424 @@
+{
+  "intents": [
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "não quero mais falar com um robo"
+        },
+        {
+          "text": "Não tá me ajudando, quero falar com uma pessoa"
+        },
+        {
+          "text": "Posso falar com uma pessoa"
+        },
+        {
+          "text": "Posso falar com um ser humano???"
+        },
+        {
+          "text": "Quero falar com o gerente"
+        },
+        {
+          "text": "Quero falar com um atentende"
+        },
+        {
+          "text": "Que transfere para um atendente"
+        },
+        {
+          "text": "tem como me direcionar para um agente?"
+        },
+        {
+          "text": "Vocês tem pessoas para me atender?"
+        }
+      ],
+      "description": "Pede atendimento humano"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "Até"
+        },
+        {
+          "text": "até mais"
+        },
+        {
+          "text": "esta falando da lgpd?"
+        },
+        {
+          "text": "falou"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "foi bom falar com vc"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Tchau tchau"
+        },
+        {
+          "text": "Tchauzinho"
+        }
+      ],
+      "description": "final da conversa."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Beleza?"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "Eai"
+        },
+        {
+          "text": "Eiii"
+        },
+        {
+          "text": "Fala ai"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oii"
+        },
+        {
+          "text": "Oiii"
+        },
+        {
+          "text": "oiiiii"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Tudo bem?"
+        }
+      ],
+      "description": "Saudação ao bot"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Estupido"
+        },
+        {
+          "text": "frustração"
+        },
+        {
+          "text": "fui, isso me estressa"
+        },
+        {
+          "text": "isso foi inutil"
+        },
+        {
+          "text": "não é muito inteligente"
+        },
+        {
+          "text": "não gostei de vc"
+        },
+        {
+          "text": "nao gosto de vc"
+        },
+        {
+          "text": "Nda, esquece"
+        },
+        {
+          "text": "odeio vc"
+        },
+        {
+          "text": "pq é tao irritante?"
+        },
+        {
+          "text": "pq vc é tao burro?"
+        },
+        {
+          "text": "Que merda em"
+        },
+        {
+          "text": "Robo chato"
+        },
+        {
+          "text": "Robo idiota"
+        },
+        {
+          "text": "seu pedaço de merda"
+        },
+        {
+          "text": "Seu troxa"
+        },
+        {
+          "text": "so me irritou"
+        },
+        {
+          "text": "te odeio"
+        },
+        {
+          "text": "todo mundo de odeia"
+        },
+        {
+          "text": "vc é irritante"
+        }
+      ],
+      "description": "Expressa feedback negativo"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Acho que vou falar com você mais vezes"
+        },
+        {
+          "text": "Amei"
+        },
+        {
+          "text": "Bacana"
+        },
+        {
+          "text": "brilhante"
+        },
+        {
+          "text": "Como isso é legal"
+        },
+        {
+          "text": "foi muito util"
+        },
+        {
+          "text": "Gostei da conversa"
+        },
+        {
+          "text": "isso é bom"
+        },
+        {
+          "text": "isso é exatamento o que eu precisava"
+        },
+        {
+          "text": "mandou bem"
+        },
+        {
+          "text": "não consigo acreditar como me ajudou"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Ok Obrigado"
+        },
+        {
+          "text": "Otimo"
+        },
+        {
+          "text": "Vc é demais"
+        },
+        {
+          "text": "voce é genial"
+        },
+        {
+          "text": "voce é maravilhoso"
+        },
+        {
+          "text": "voce é o melhor"
+        },
+        {
+          "text": "Você é ótimo"
+        }
+      ],
+      "description": "Expressa sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "How",
+      "examples": [
+        {
+          "text": "Como a lei trata a prevenção?"
+        },
+        {
+          "text": "Como deixo meus dados seguros?"
+        },
+        {
+          "text": "Como devo fazer almodengas"
+        },
+        {
+          "text": "COmo devo fazer tranferências internacionais?"
+        },
+        {
+          "text": "como faço para evitar multas?"
+        },
+        {
+          "text": "e como posso tratar os dados?"
+        },
+        {
+          "text": "pode me falar como implementar a lei na minha empresa?"
+        },
+        {
+          "text": "Se eu receber uma multa, como recorro?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_is",
+      "examples": [
+        {
+          "text": "Definições? o que vc define meu bem?"
+        },
+        {
+          "text": "Ela se pauta em que?"
+        },
+        {
+          "text": "EM QUE SÃO PAUTADOS OS PRINCÍPIOS DA LGPD?"
+        },
+        {
+          "text": "E que ações devo tomar?"
+        },
+        {
+          "text": "O q é responsabilização?"
+        },
+        {
+          "text": "O q tenho que fazer para não ser processados?"
+        },
+        {
+          "text": "O que é adequação?"
+        },
+        {
+          "text": "O que é a LGPD?"
+        },
+        {
+          "text": "O que é consentimento?"
+        },
+        {
+          "text": "O que é dado?"
+        },
+        {
+          "text": "O que é lei?"
+        },
+        {
+          "text": "O que é privacidade?"
+        },
+        {
+          "text": "O que so fundamentals?"
+        },
+        {
+          "text": "pod me salary sobre fundamentals?"
+        },
+        {
+          "text": "Quais são os principios da LGPD?"
+        },
+        {
+          "text": "Quais são seus principios?"
+        },
+        {
+          "text": "Qual é o artigo 2"
+        },
+        {
+          "text": "Qual é o artigo 6"
+        },
+        {
+          "text": "Queria saber meus dados devem ser transparentes?"
+        },
+        {
+          "text": "Se eu receber uma multa, o q faço"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_You_Do",
+      "examples": [
+        {
+          "text": "O que vc sabe?"
+        },
+        {
+          "text": "O que você faz?"
+        },
+        {
+          "text": "Quais são suas opções?"
+        },
+        {
+          "text": "Quais seus conhecimentos?"
+        },
+        {
+          "text": "Quais suas funções?"
+        },
+        {
+          "text": "Quais suas opções?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "When",
+      "examples": [
+        {
+          "text": "Até quando tener que atualizar mess system as?"
+        },
+        {
+          "text": "Quando podem usar meus dados?"
+        },
+        {
+          "text": "Quando um controlador pode manipular meus dados?"
+        },
+        {
+          "text": "Queria saber quando ela come far a valid"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Who",
+      "examples": [
+        {
+          "text": "A quem se aplica a LGPD?"
+        },
+        {
+          "text": "Quem pode usar meus dados?"
+        },
+        {
+          "text": "Quem são os atores?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "ator",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ator",
+          "synonyms": [
+            "atores",
+            "atuador",
+            "atuadores"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "controlador",
+          "synonyms": [
+            "provedor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "encarregado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "operador",
+          "synonyms": [
+            "executor",
+            "usuario"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "titular",
+          "synonyms": [
+            "dono",
+            "proprietario"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "anonimizado",
+          "synonyms": [
+            "dado anonimo",
+            "dado não identificado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "banco de dados",
+          "synonyms": [
+            "banco de dados",
+            "base de dados",
+            "data lake"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dado",
+          "synonyms": [
+            "dado",
+            "dados",
+            "informações"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dado pessoal",
+          "synonyms": [
+            "dado particular",
+            "dados pessoais"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dado publico",
+          "synonyms": [
+            "dados abertos",
+            "dados publicos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dado sensível",
+          "synonyms": [
+            "dado privado",
+            "dados sensiveis"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "definicao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "artigo",
+          "synonyms": [
+            "art",
+            "art."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "consentimento",
+          "synonyms": [
+            "autorização"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "definicao",
+          "synonyms": [
+            "definicoes",
+            "detalhes",
+            "especificacoes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lgpd",
+          "synonyms": [
+            "lei geral de proteção de dados",
+            "LGPD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "momento",
+          "synonyms": [
+            "data",
+            "dia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "multa",
+          "synonyms": [
+            "multas",
+            "penalidade",
+            "penalidades"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "órgão de pesquisa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "relatório",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "topico",
+          "synonyms": [
+            "assunto",
+            "assuntos",
+            "tópico",
+            "topicos",
+            "tópicos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "transferência internacional",
+          "synonyms": [
+            "transferências internacionais"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "uso compartilhado",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fundamentos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Adequação",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finalidade",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fundamento",
+          "synonyms": [
+            "fundamentos",
+            "origens",
+            "pauta",
+            "principios"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "N_discriminacao",
+          "synonyms": [
+            "Não discriminação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prevenção",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Qualidade",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Responsabilizacao",
+          "synonyms": [
+            "Responsabilização"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Segurança",
+          "synonyms": [
+            "privacidade",
+            "privado",
+            "seguro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Transparência",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "não"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "ok",
+            "quero",
+            "sim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "verbo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "agir",
+          "synonyms": [
+            "ação",
+            "ações",
+            "faço",
+            "fazer",
+            "feito",
+            "implementação",
+            "implementar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "aplicar",
+          "synonyms": [
+            "aplica",
+            "aplicação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bloquear",
+          "synonyms": [
+            "bloqueio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "coletar",
+          "synonyms": [
+            "capturar",
+            "gravar",
+            "manter",
+            "pegar",
+            "salvar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "consentimento",
+          "synonyms": [
+            "autorizar",
+            "conceder"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "excluir",
+          "synonyms": [
+            "deletar",
+            "deletarem",
+            "eliminação",
+            "eliminar",
+            "excluirem ",
+            "exclusão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tratar",
+          "synonyms": [
+            "manipulação",
+            "manipular",
+            "tratamento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "utilizar",
+          "synonyms": [
+            "usado",
+            "usar",
+            "utilizado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "valida",
+          "synonyms": [
+            "vale",
+            "vigente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vigor",
+          "synonyms": [
+            "começa",
+            "entra",
+            "seguir",
+            "vale"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, não entendi. ainda estou estudando a lei"
+              },
+              {
+                "text": "Pode falar de outra forma? Estou em fase de treinamento"
+              },
+              {
+                "text": "O que quis dizer? Ainda estou aprendendo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1596810623064",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Art.1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A LGPD é a Lei Geral de Proteção de Dados e tem como objetivos regulamentar o tratamento de dados no Brasil, eu também conheço seus princípios e definições"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:1 || @definicao:lgpd",
+      "dialog_node": "node_10_1589544803578",
+      "previous_sibling": "node_4_1590419354649"
+    },
+    {
+      "type": "folder",
+      "title": "Artigos",
+      "parent": "node_3_1596808771889",
+      "conditions": "",
+      "dialog_node": "node_10_1590102202139",
+      "previous_sibling": "node_8_1589842636169"
+    },
+    {
+      "type": "standard",
+      "title": "N_Mapeado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "não entendi a pergunta"
+              },
+              {
+                "text": "acho que não estudei isso ainda"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1596808771889",
+      "conditions": "#What_is",
+      "dialog_node": "node_10_1596811309724",
+      "previous_sibling": "node_3_1597189121351"
+    },
+    {
+      "type": "standard",
+      "title": "Art.2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A legislação brasileira estabelece suas direções sobre como o tratamento de dados pessoais poderão ser realizados baseado nos seguintes fundamentos: \nFinalidade, Adequação, Transparência, Qualidade, Segurança, Prevenção, Não discriminação e Responsabilização"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1589844624397"
+      },
+      "conditions": "@definicao:artigo && @sys-number:2 || @fundamentos",
+      "dialog_node": "node_1_1590103040782"
+    },
+    {
+      "type": "standard",
+      "title": "A quem a lei não se aplicar?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A lei vale para todas as operações com dados"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1596810527541",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1590111521629"
+      },
+      "conditions": "@verbo:aplicar && @verbo:valida && @reply:no",
+      "dialog_node": "node_1_1590616351450"
+    },
+    {
+      "type": "standard",
+      "title": "O que é tratamento de dados?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O tratamento de dados é qualquer operação relacionada a dados pessoais. As operações previstas são:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1591010891646",
+      "conditions": "@dado",
+      "dialog_node": "node_1_1591010762678",
+      "previous_sibling": "node_9_1591011702596"
+    },
+    {
+      "type": "standard",
+      "title": "O que  é consentimento?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "é autorização pelo titular de tratarem seus dados pessoais para uma determinada finalidade"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "conditions": "@verbo:consentimento",
+      "dialog_node": "node_1_1591011519067"
+    },
+    {
+      "type": "standard",
+      "title": "N_Mapeado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "não entendi a pergunta"
+              },
+              {
+                "text": "acho que não estudei isso ainda"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1596810527541",
+      "conditions": "#Who",
+      "dialog_node": "node_1_1596811548316",
+      "previous_sibling": "node_8_1590622916705"
+    },
+    {
+      "type": "standard",
+      "title": "O que são dados?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dado é uma informação relacionada a uma pessoa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Eles são sensíveis quando for de caráter privado, tais como de origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ou dado anonimizado caso o titular não possa ser identificado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "conditions": "@dado",
+      "dialog_node": "node_2_1589842789712",
+      "previous_sibling": "node_3_1596809671185"
+    },
+    {
+      "type": "standard",
+      "title": "O que são atores?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Atores em relação aos dados temos o titular que é a quem se refere o dado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "o controlador sendo o responsável por tratar os dados, quem armazena, disponibiliza e garante a proteção dos dados\no operador que realiza o tratamento dos dados em nome do controlador\ne o encarregado que é o  canal de comunicação entre o controlador, o titular e a Autoridade Nacional de Proteção de Dados (ANPD)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "conditions": "@ator",
+      "dialog_node": "node_2_1590622354887",
+      "previous_sibling": "node_2_1589842789712"
+    },
+    {
+      "type": "standard",
+      "title": "Quando dados podem ser utilizados?",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1596810623064",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_artigo_7"
+      },
+      "conditions": "@dado &&    @verbo:(utilizar) || @verbo:tratar",
+      "dialog_node": "node_2_1591837346510"
+    },
+    {
+      "type": "standard",
+      "title": "Encerramento e Pesquisa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigado conversado comigo"
+              },
+              {
+                "text": "Espero que tenha ajuda"
+              },
+              {
+                "text": "Pode me ajudar a melhorar, respondendo essa pesquisa?"
+              },
+              {
+                "text": "<LINK>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1596753481257",
+      "previous_sibling": "node_2_1596756776839"
+    },
+    {
+      "type": "standard",
+      "title": "O que você faz?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu conheço pontos importantes da LGPD e posso auxiliar em algumas dúvidas que tenha. Tem algo em especifico que gostaria de perguntar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Como sobre os fundamentos? Consetimento?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_You_Do",
+      "dialog_node": "node_2_1596755055405",
+      "previous_sibling": "node_2_1596753481257"
+    },
+    {
+      "type": "standard",
+      "title": "FeedBack Negativo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sinto muito"
+              },
+              {
+                "text": "desculpe"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Negative_Feedback",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1596756776839",
+      "previous_sibling": "node_9_1588888466041"
+    },
+    {
+      "type": "standard",
+      "title": "Who",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Who",
+      "dialog_node": "node_2_1596810527541",
+      "previous_sibling": "node_3_1596507607317"
+    },
+    {
+      "type": "standard",
+      "title": "When",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#When",
+      "dialog_node": "node_2_1596810623064",
+      "previous_sibling": "node_2_1596810527541"
+    },
+    {
+      "type": "standard",
+      "title": "N_Mapeado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "não entendi a pergunta"
+              },
+              {
+                "text": "acho que não estudei isso ainda"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1596810623064",
+      "conditions": "#When",
+      "dialog_node": "node_2_1596811584553",
+      "previous_sibling": "node_7_1598707245673"
+    },
+    {
+      "type": "standard",
+      "title": "Art.4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A lei não se aplica ao tratamento de dados pessoais que não estejam ou tenham qualquer ligação com atividades no território nacional e  quando o dado é utilizado\npara fins particulares não econômicos\nou exclusivamente jornalístico, artísticos ou acadêmicos\nou fins de segurança pública: defesa nacional, do estado ou investigação e repressão de infrações penais"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:4",
+      "dialog_node": "node_3_1590111521629",
+      "previous_sibling": "node_9_1590104450118"
+    },
+    {
+      "type": "standard",
+      "title": "O que é bloqueio?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "o bloqueio é suspensão temporária de qualquer operação de tratamento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1591010891646",
+      "conditions": "@verbo:(bloquear)",
+      "dialog_node": "node_3_1591010943555"
+    },
+    {
+      "type": "standard",
+      "title": "How",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Isso é muito pessoal a cada caso. Consultar um profissional, como um consultor é o caminho mais adequado"
+              },
+              {
+                "text": "Acho melhor procurar um profissional neste caso, pois isso depende muito da sua situação"
+              },
+              {
+                "text": "Cada caso é especifico, melhor atitude é procurar um profissional"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1596724603019"
+      },
+      "conditions": "#How",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1596507607317",
+      "previous_sibling": "node_3_1596808771889"
+    },
+    {
+      "type": "standard",
+      "title": "What_is",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#What_is",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1596808771889",
+      "previous_sibling": "node_2_1596755055405"
+    },
+    {
+      "type": "standard",
+      "title": "O que são dados públicos?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dados de direito públicos devem ser tratados com o objetivo de executar as competências legais ou cumprir as atribuições legais do serviço público"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "conditions": "@dado:(dado publico)",
+      "dialog_node": "node_3_1596809671185",
+      "previous_sibling": "node_9_1590620958914"
+    },
+    {
+      "type": "standard",
+      "title": "Pergunta genérica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A LGPD é uma lei focada para as pessoas terem seus direito de privacidade garantidos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1596808771889",
+      "conditions": "@definicao:topico",
+      "dialog_node": "node_3_1597189121351",
+      "previous_sibling": "node_8_1598906273449"
+    },
+    {
+      "type": "standard",
+      "title": "O que é finalidade?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todo o tratamento de dados pessoais tem que ter o seu propósito legitimado e especificação precisa e coerente para a correta utilização, além de não omitir nenhum fato de sua finalidade ao titular"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Finalidade",
+      "dialog_node": "node_4_1589844624397"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 65",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:65",
+      "dialog_node": "node_4_1590419354649",
+      "previous_sibling": "node_artigo_64"
+    },
+    {
+      "type": "standard",
+      "title": "Art. não existente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A lei está definida em 65 artigos, começando pelo artigo 1º"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number > 65 || @definicao:artigo && @sys-number < 1",
+      "dialog_node": "node_4_1590419398607",
+      "previous_sibling": "node_10_1589544803578"
+    },
+    {
+      "type": "standard",
+      "title": "O que é qualidade?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cada titular tem a garantia de que seus dados\ntenham exatidão, clareza, relevância e atualização seguindo a finalidade do seu\ntratamento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Qualidade",
+      "dialog_node": "node_4_1590612167423",
+      "previous_sibling": "node_7_1590612120317"
+    },
+    {
+      "type": "folder",
+      "title": "Tratamento",
+      "parent": "node_8_1589842636169",
+      "conditions": "@verbo",
+      "dialog_node": "node_4_1591010891646",
+      "previous_sibling": "node_1_1591011519067"
+    },
+    {
+      "type": "standard",
+      "title": "O que é uso compartilhado dos dados?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uso compartilhado se trata da comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados pessoais por órgãos e entidades públicos no cumprimento de suas competências legais, ou entre esses e entes privados, reciprocamente, com autorização específica, para uma ou mais modalidades de tratamento permitidas por esses entes públicos, ou entre entes privados"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "conditions": "@definicao:(uso compartilhado)",
+      "dialog_node": "node_4_1591011912771",
+      "previous_sibling": "node_6_1591011821377"
+    },
+    {
+      "type": "standard",
+      "title": "O que é o  relatórios de impacto?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Relatórios de impacto é a  documentação do controlador que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "conditions": "@definicao:relatório",
+      "dialog_node": "node_4_1591012024835",
+      "previous_sibling": "node_4_1591011912771"
+    },
+    {
+      "type": "standard",
+      "title": "Quem pode utilizar os dados?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os dados pessoais podem ser tratados pelo titular ou pelos controladores e operadores quando autorizados ou quando dados são públicos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1596810527541",
+      "conditions": "@dado && @verbo:utilizar",
+      "dialog_node": "node_4_1591837647286",
+      "previous_sibling": "node_7_1589844462826"
+    },
+    {
+      "type": "standard",
+      "title": "O que é adequação?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Adequação é compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Adequação",
+      "dialog_node": "node_4_1596760601849",
+      "previous_sibling": "node_4_1589844624397"
+    },
+    {
+      "type": "standard",
+      "title": "O que é responsabilização?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O detentor dos dados e responsável pelo tratamento deve demonstrar que as ações protetivas e outras medidas tomadas para o cumprimento das normas de segurança são eficazes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Responsabilizacao",
+      "dialog_node": "node_5_1589844901367",
+      "previous_sibling": "node_5_1590612247044"
+    },
+    {
+      "type": "standard",
+      "title": "O que é prevenção?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Métodos de prevenção devem ser tomados para que não ocorra nenhuma ação danosa ou prejudicial em decorrência do tratamento de dados pessoais"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Prevenção",
+      "dialog_node": "node_5_1590612221211",
+      "previous_sibling": "node_6_1589496812733"
+    },
+    {
+      "type": "standard",
+      "title": "O que é não discriminação?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Proibição de utilização dos dados pessoais com\nintuito discriminatórios e/ou abusivos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:N_discriminacao",
+      "dialog_node": "node_5_1590612247044",
+      "previous_sibling": "node_5_1590612221211"
+    },
+    {
+      "type": "standard",
+      "title": "O que é um órgão de pesquisa?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "órgão ou entidade da administração pública direta ou indireta ou pessoa jurídica de direito privado sem fins lucrativos legalmente constituída sob as leis brasileiras, com sede e foro no País, que inclua em sua missão institucional ou em seu objetivo social ou estatutário a pesquisa básica ou aplicada de caráter histórico, científico, tecnológico ou estatístico"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "conditions": "@definicao:(órgão de pesquisa)",
+      "dialog_node": "node_5_1591012716825",
+      "previous_sibling": "node_4_1591010891646"
+    },
+    {
+      "type": "standard",
+      "title": "O que é segurança?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Toda pessoa deve ter garantida sua privacidade cada dado pessoal deve ter sua proteção garantida por medidas técnicas e administrativas capazes de resguardar acessos não permitidos "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "cada dado pessoal deve ter sua proteção garantida por medidas técnicas e administrativas capazes de resguardar acessos não permitidos "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "casos de vazamento acidental ou proposital, além de perdas, vendas, modificações e qualquer compartilhamento indevido"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Segurança",
+      "dialog_node": "node_6_1589496812733",
+      "previous_sibling": "node_4_1590612167423"
+    },
+    {
+      "type": "standard",
+      "title": "O que é uma transferência internacional?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Transferência de dados pessoais para país estrangeiro ou organismo internacional\nEla é permitida para países que proporcionem grau de proteção de dados pessoais adequado \nOu quando o controlador oferecer e comprovar garantias de cumprimento dos princípios\nA ANPPD emite regularmente selos, certificados e códigos de conduta para esse tipo de transferência"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@definicao:(transferência internacional)",
+      "dialog_node": "node_6_1591011821377",
+      "previous_sibling": "node_5_1591012716825"
+    },
+    {
+      "type": "standard",
+      "title": "Quando podem coletar dados?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os dados só podem ser coletados com autorização do titular, independente do meio ou do operador responsável"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1596810623064",
+      "conditions": "@dado || @verbo:coletar",
+      "dialog_node": "node_6_1596763718719",
+      "previous_sibling": "node_2_1591837346510"
+    },
+    {
+      "type": "standard",
+      "title": "A quem aplica a Lei?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A ANPPD é o orgão que está sendo criado para fiscalização e aplicação da LGPD"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1596810527541",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1590104450118"
+      },
+      "conditions": "@verbo:aplicar || @verbo:valida",
+      "dialog_node": "node_7_1589844462826",
+      "previous_sibling": "node_1_1590616351450"
+    },
+    {
+      "type": "standard",
+      "title": "O que é transparência?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O livre conhecimento e acesso a consulta\ndos seus dados integrais utilizados deve ser permitido aos titulares, de maneira\nsimplificada e sem custos sobre qual a maneira do tratamento e quanto tempo o\nmesmo levará, salvos os segredos comerciais e industriais"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589578283762",
+      "conditions": "@fundamentos:Transparência",
+      "dialog_node": "node_7_1590612120317",
+      "previous_sibling": "node_4_1596760601849"
+    },
+    {
+      "type": "standard",
+      "title": "Quem bloqueia os dados?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pode ser requisitado pelo titular do dado e o responsável deve informar o quanto antes aos agentes que trataram de realizar o bloqueio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1591839090719",
+      "conditions": "@verbo:bloquear",
+      "dialog_node": "node_7_1591839129982"
+    },
+    {
+      "type": "standard",
+      "title": "Quando entra em vigor?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A lei ainda não tem uma data oficial para lei entrar em vigor"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Depende de varias aprovações do senado e da criação concreta da AANP"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Mas a lei já é utilizada em processos judiciais"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1596810623064",
+      "conditions": "@definicao:momento || @verbo:(vigor)",
+      "dialog_node": "node_7_1598707245673",
+      "previous_sibling": "node_6_1596763718719"
+    },
+    {
+      "type": "folder",
+      "title": "Definições",
+      "parent": "node_3_1596808771889",
+      "conditions": "@definicao || @dado || @ator",
+      "dialog_node": "node_8_1589842636169",
+      "previous_sibling": "node_9_1589578283762"
+    },
+    {
+      "type": "standard",
+      "title": "Atores",
+      "parent": "node_2_1596810527541",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1590622354887"
+      },
+      "conditions": "@ator",
+      "dialog_node": "node_8_1590622916705",
+      "previous_sibling": "node_8_1591839090719"
+    },
+    {
+      "type": "folder",
+      "title": "Tratamento",
+      "parent": "node_2_1596810527541",
+      "conditions": "@verbo",
+      "dialog_node": "node_8_1591839090719",
+      "previous_sibling": "node_4_1591837647286"
+    },
+    {
+      "type": "standard",
+      "title": "Quem pode excluir meus dados?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os dados podem ser deletados pelos controladores quando requisitado pelo titular ou mediante a ação legal ou regulatória"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1591839090719",
+      "conditions": "@verbo:excluir",
+      "dialog_node": "node_8_1598905742800",
+      "previous_sibling": "node_7_1591839129982"
+    },
+    {
+      "type": "standard",
+      "title": "Quais são as multas?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quando houver infrações é possível a aplicação de multas, de até 2% (dois por cento) do faturamento da empresa,  com limite de R$ 50.000.000,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Também pode haver suspensão parcial do funcionamento do banco de dados e do exercício da atividade de tratamento dos dados pessoais  a que se refere a infração pelo período máximo de 6 meses, prorrogável por mais 6 meses"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1596808771889",
+      "conditions": "@definicao:multa",
+      "dialog_node": "node_8_1598906273449",
+      "previous_sibling": "node_9_1596507567023"
+    },
+    {
+      "type": "standard",
+      "title": "Saudações",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, eu posso responder duvidas sobre a LGPD"
+              },
+              {
+                "text": "Ola, meu conhecimento é relacionado a LGPD"
+              },
+              {
+                "text": "Ola, sou um bot que trata o assunto LGPD"
+              },
+              {
+                "text": "Oi, consigo responder dúvidas sobre a LGPD"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Gostaria de informar que gravamos as mensagens de nossa conversa, para me atualizar sobre os assuntos mais relevantes e aprimorar meus conhecimentos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1588888466041",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "folder",
+      "title": "Fundamentos",
+      "parent": "node_3_1596808771889",
+      "conditions": "@fundamentos",
+      "dialog_node": "node_9_1589578283762"
+    },
+    {
+      "type": "standard",
+      "title": "Art.3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esta Lei aplica-se a qualquer operação de tratamento independentemente do meio\ndesde que o serviço ou produto seja em território nacional e/ou a coleta dos dados"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:3",
+      "dialog_node": "node_9_1590104450118",
+      "previous_sibling": "node_1_1590103040782"
+    },
+    {
+      "type": "standard",
+      "title": "O que é banco de dados?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Conjunto de dados pessoais, armazenado em um ou em vários locais. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Geralmente está um datacenter quando virtual, mas documentação física também pode ser considerada"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589842636169",
+      "conditions": "@dado:(banco de dados)",
+      "dialog_node": "node_9_1590620958914",
+      "previous_sibling": "node_4_1591012024835"
+    },
+    {
+      "type": "standard",
+      "title": "O que é eliminação?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eliminar é exclusão de dado ou de conjunto de dados armazenados em banco de dados"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "E que o titular tem direito a requisitar essa operação"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Dados devem ser eliminados sempre após o tratamento, exceto em caso de ação regulatória ou requisição legal"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1591010891646",
+      "conditions": "@verbo:(excluir)",
+      "dialog_node": "node_9_1591011702596",
+      "previous_sibling": "node_3_1591010943555"
+    },
+    {
+      "type": "standard",
+      "title": "Ações",
+      "parent": "node_3_1596808771889",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1596507607317"
+      },
+      "conditions": "@verbo:agir",
+      "dialog_node": "node_9_1596507567023",
+      "previous_sibling": "node_10_1590102202139"
+    },
+    {
+      "type": "standard",
+      "title": "Asked How",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "é importante saber"
+              },
+              {
+                "text": "a lei fala que"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1596507607317",
+      "context": {
+        "askHow": false
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1596808771889"
+      },
+      "conditions": "@definicao || @dado || @ator || @fundamentos",
+      "dialog_node": "node_9_1596724603019"
+    },
+    {
+      "type": "standard",
+      "title": "Quem pode coletar dados?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os dados só podem ser coletados com autorização do titular, independente do meio ou do operador responsável"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1591839090719",
+      "conditions": "@verbo:coletar",
+      "dialog_node": "node_9_1598906010600",
+      "previous_sibling": "node_8_1598905742800"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 10",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:10",
+      "dialog_node": "node_artigo_10",
+      "previous_sibling": "node_artigo_9"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 11",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:11",
+      "dialog_node": "node_artigo_11",
+      "previous_sibling": "node_artigo_10"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 12",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:12",
+      "dialog_node": "node_artigo_12",
+      "previous_sibling": "node_artigo_11"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 13",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:13",
+      "dialog_node": "node_artigo_13",
+      "previous_sibling": "node_artigo_12"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 14",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:14",
+      "dialog_node": "node_artigo_14",
+      "previous_sibling": "node_artigo_13"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 15",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:15",
+      "dialog_node": "node_artigo_15",
+      "previous_sibling": "node_artigo_14"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 16",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:16",
+      "dialog_node": "node_artigo_16",
+      "previous_sibling": "node_artigo_15"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 17",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:17",
+      "dialog_node": "node_artigo_17",
+      "previous_sibling": "node_artigo_16"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 18",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:18",
+      "dialog_node": "node_artigo_18",
+      "previous_sibling": "node_artigo_17"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 19",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:19",
+      "dialog_node": "node_artigo_19",
+      "previous_sibling": "node_artigo_18"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 20",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:20",
+      "dialog_node": "node_artigo_20",
+      "previous_sibling": "node_artigo_19"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 21",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:21",
+      "dialog_node": "node_artigo_21",
+      "previous_sibling": "node_artigo_20"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 22",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:22",
+      "dialog_node": "node_artigo_22",
+      "previous_sibling": "node_artigo_21"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 23",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Art. 23. O tratamento de dados pessoais pelas pessoas jurídicas de direito público referidas no  art. 1º, deverá ser realizado para o atendimento de sua finalidade pública, na persecução do interesse público, com o objetivo de executar as competências legais ou cumprir as atribuições legais do serviço público"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:23",
+      "dialog_node": "node_artigo_23",
+      "previous_sibling": "node_artigo_22"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 24",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:24",
+      "dialog_node": "node_artigo_24",
+      "previous_sibling": "node_artigo_23"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 25",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:25",
+      "dialog_node": "node_artigo_25",
+      "previous_sibling": "node_artigo_24"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 26",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:26",
+      "dialog_node": "node_artigo_26",
+      "previous_sibling": "node_artigo_25"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 27",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:27",
+      "dialog_node": "node_artigo_27",
+      "previous_sibling": "node_artigo_26"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 28",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:28",
+      "dialog_node": "node_artigo_28",
+      "previous_sibling": "node_artigo_27"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 29",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:29",
+      "dialog_node": "node_artigo_29",
+      "previous_sibling": "node_artigo_28"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 30",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:30",
+      "dialog_node": "node_artigo_30",
+      "previous_sibling": "node_artigo_29"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 31",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:31",
+      "dialog_node": "node_artigo_31",
+      "previous_sibling": "node_artigo_30"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 32",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:32",
+      "dialog_node": "node_artigo_32",
+      "previous_sibling": "node_artigo_31"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 33",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:33",
+      "dialog_node": "node_artigo_33",
+      "previous_sibling": "node_artigo_32"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 34",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:34",
+      "dialog_node": "node_artigo_34",
+      "previous_sibling": "node_artigo_33"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 35",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:35",
+      "dialog_node": "node_artigo_35",
+      "previous_sibling": "node_artigo_34"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 36",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:36",
+      "dialog_node": "node_artigo_36",
+      "previous_sibling": "node_artigo_35"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 37",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:37",
+      "dialog_node": "node_artigo_37",
+      "previous_sibling": "node_artigo_36"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 38",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:38",
+      "dialog_node": "node_artigo_38",
+      "previous_sibling": "node_artigo_37"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 39",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:39",
+      "dialog_node": "node_artigo_39",
+      "previous_sibling": "node_artigo_38"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 40",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:40",
+      "dialog_node": "node_artigo_40",
+      "previous_sibling": "node_artigo_39"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 41",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:41",
+      "dialog_node": "node_artigo_41",
+      "previous_sibling": "node_artigo_40"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 42",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:42",
+      "dialog_node": "node_artigo_42",
+      "previous_sibling": "node_artigo_41"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 43",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:43",
+      "dialog_node": "node_artigo_43",
+      "previous_sibling": "node_artigo_42"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 44",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:44",
+      "dialog_node": "node_artigo_44",
+      "previous_sibling": "node_artigo_43"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 45",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:45",
+      "dialog_node": "node_artigo_45",
+      "previous_sibling": "node_artigo_44"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 46",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:46",
+      "dialog_node": "node_artigo_46",
+      "previous_sibling": "node_artigo_45"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 47",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:47",
+      "dialog_node": "node_artigo_47",
+      "previous_sibling": "node_artigo_46"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 48",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:48",
+      "dialog_node": "node_artigo_48",
+      "previous_sibling": "node_artigo_47"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 49",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:49",
+      "dialog_node": "node_artigo_49",
+      "previous_sibling": "node_artigo_48"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A definição do que são dados, as formas de tratamento deles, os possíveis atores durante o tratamento\no que é banco de dados, transferência internacional de dados, uso compartilhado de dado, relatório à proteção de dados, órgão de pesquisa e autoridade nacional"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:5",
+      "dialog_node": "node_artigo_5",
+      "previous_sibling": "node_3_1590111521629"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 50",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:50",
+      "dialog_node": "node_artigo_50",
+      "previous_sibling": "node_artigo_49"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 51",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:51",
+      "dialog_node": "node_artigo_51",
+      "previous_sibling": "node_artigo_50"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 52",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:52",
+      "dialog_node": "node_artigo_52",
+      "previous_sibling": "node_artigo_51"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 53",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:53",
+      "dialog_node": "node_artigo_53",
+      "previous_sibling": "node_artigo_52"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 54",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:54",
+      "dialog_node": "node_artigo_54",
+      "previous_sibling": "node_artigo_53"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 55",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:55",
+      "dialog_node": "node_artigo_55",
+      "previous_sibling": "node_artigo_54"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 56",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:56",
+      "dialog_node": "node_artigo_56",
+      "previous_sibling": "node_artigo_55"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 57",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:57",
+      "dialog_node": "node_artigo_57",
+      "previous_sibling": "node_artigo_56"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 58",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:58",
+      "dialog_node": "node_artigo_58",
+      "previous_sibling": "node_artigo_57"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 59",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:59",
+      "dialog_node": "node_artigo_59",
+      "previous_sibling": "node_artigo_58"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 6",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " As atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios:\nFinalidade, Adequação, Transparência, Qualidade, Segurança, Prevenção, Não discriminação e Responsabilização"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:6",
+      "dialog_node": "node_artigo_6",
+      "previous_sibling": "node_artigo_5"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 60",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:60",
+      "dialog_node": "node_artigo_60",
+      "previous_sibling": "node_artigo_59"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 61",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:61",
+      "dialog_node": "node_artigo_61",
+      "previous_sibling": "node_artigo_60"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 62",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:62",
+      "dialog_node": "node_artigo_62",
+      "previous_sibling": "node_artigo_61"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 63",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:63",
+      "dialog_node": "node_artigo_63",
+      "previous_sibling": "node_artigo_62"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 64",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:64",
+      "dialog_node": "node_artigo_64",
+      "previous_sibling": "node_artigo_63"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 7",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " O tratamento de dados pessoais somente pode ser feito caso autorizados pelo titular\n ou quando previsto em lei, seja por questões de segurança, sanitária ou contratuais\nPodem ser usados por órgãos de pesquisa, e sempre que possível serão anonimizados\nMas não abrange dados que o titular de alguma forma tenha denominados como públicos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:7",
+      "dialog_node": "node_artigo_7",
+      "previous_sibling": "node_artigo_6"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 8",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:8",
+      "dialog_node": "node_artigo_8",
+      "previous_sibling": "node_artigo_7"
+    },
+    {
+      "type": "standard",
+      "title": "Art. 9",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe ainda estou aprendendo sobre a lei"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590102202139",
+      "conditions": "@definicao:artigo && @sys-number:9",
+      "dialog_node": "node_artigo_9",
+      "previous_sibling": "node_artigo_8"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Transferência de dados pessoais para país estrangeiro ou organismo internacional"
+              },
+              {
+                "text": "Ela é permitida para países que proporcionem grau de proteção de dados pessoais adequado "
+              },
+              {
+                "text": "Ou quando o controlador oferecer e comprovar garantias de cumprimento dos princípios"
+              },
+              {
+                "text": "A ANPPD emite regularmente selos, certificados e códigos de conduta para esse tipo de transferência"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1591011821377",
+      "disabled": true,
+      "dialog_node": "response_9_1596724005862"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1588888466041"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Consegue falar de uma maneira mais simples?"
+    },
+    {
+      "text": "dgagfasdgfaed"
+    },
+    {
+      "text": "sim"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": false
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 2,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "V2",
+  "language": "pt-br",
+  "description": ""
+}
