@@ -70,10 +70,11 @@ responseUserInput = async (sessionMsg, sessionId = undefined) => {
             let output = '';
             if (response.result.output.generic)
                 response.result.output.generic.forEach(o => {
-                    output += o.text || ''
+                    output += (o.text || '') + '\n'
                 });
 
-            if (output === '') output = 'Desculpa, mas não tenho resposta para isso no momento';
+            if (output === 'undefined\n' || output === '\n')
+                output = 'Desculpa, mas não tenho resposta para isso no momento';
 
             let mainIntent = response.result.output.intents
                 .find(i => i.confidence >= 0.6) || { intent: 'NotFound' };

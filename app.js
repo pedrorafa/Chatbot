@@ -1,5 +1,5 @@
-// const telBot = require('./telegramBot')
-// telBot.start();
+const telBot = require('./telegramBot')
+telBot.start();
 
 const watson = require('./watsonConversation')
 
