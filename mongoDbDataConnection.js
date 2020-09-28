@@ -6,33 +6,43 @@ const uri = process.env.DB_CONNECTION
 
 let db = undefined
 
-MongoClient.connect(uri, (err, client) => {
+const connect = MongoClient.connect(uri, (err, client) => {
   if (err) return console.log(err)
 
   db = client.db(dbName)
 })
 
 const saveMessage = (payload) => {
+  if (!db)
+    this.connect();
   db.collection('messages').save(payload, (err, result) => {
     if (err) return console.log(err)
   })
 }
 const saveError = (error) => {
+  if (!db)
+    this.connect();
   db.collection('error').save(error, (err, result) => {
     if (err) return console.log(err)
   })
 }
 
 const register = async (user, hash) => {
-  return await db.collection('users').insert({user: user, hash: hash}, (err, result) => {
+  if (!db)
+    this.connect();
+  return await db.collection('users').insert({ user: user, hash: hash }, (err, result) => {
     if (err) return console.log(err)
     return result
   })
 }
 const login = async (user, hash) => {
-  return await db.collection('users').find({user: user, hash: hash}).toArray()
+  if (!db)
+    this.connect();
+  return await db.collection('users').find({ user: user, hash: hash }).toArray()
 }
 const getMessages = async () => {
+  if (!db)
+    this.connect();
   return await db.collection('messages').find({}).toArray()
 }
 
