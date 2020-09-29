@@ -74,7 +74,7 @@ responseUserInput = async (sessionMsg, sessionId = undefined) => {
                 });
 
             if (output === 'undefined\n' || output === '\n')
-                output = 'Desculpa, mas não tenho resposta para isso no momento';
+                output = 'Desculpa, mas não tenho resposta para isso no momento\n';
 
             let mainIntent = response.result.output.intents
                 .find(i => i.confidence >= 0.6) || { intent: 'NotFound' };
