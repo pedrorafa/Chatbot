@@ -22,7 +22,7 @@ module.exports = {
 
         msg.forEach(m => {
             let aux = obj.find(i => i.Description === m.intent)
-            if (!aux || !aux.Messages)
+            if (!aux)
                 aux = {
                     Description: m.intent,
                     Messages: []
