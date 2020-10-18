@@ -3,6 +3,21 @@ const mongo = require('./mongoDbDataConnection')
 const helper = require('./watson/skillHelper')
 
 const bcrypt = require('bcrypt');
+const groupBy = (collection, property) => {
+    var i = 0, val, index,
+        values = [], result = [];
+    for (; i < collection.length; i++) {
+        val = collection[i][property];
+        index = values.indexOf(val);
+        if (index > -1)
+            result[index].push(collection[i]);
+        else {
+            values.push(val);
+            result.push([collection[i]]);
+        }
+    }
+    return result;
+}
 
 module.exports = {
     register: async (user, pass) => {
@@ -18,20 +33,18 @@ module.exports = {
     getMessages: async () => {
         let msg = await mongo.getMessages()
 
-        let obj = []
+        let aux = groupBy(msg, 'intent')
 
-        msg.forEach(m => {
-            let aux = obj.find(i => i.Description === m.intent)
-            if (!aux)
-                aux = {
-                    Description: m.intent,
-                    Messages: []
-                }
-            aux.Messages.push(m);
-            obj.push(aux);
+        let result = []
+
+        aux.forEach(i =>{
+            result.push({
+                Description: i[0].intent,
+                Messages: i
+            })
         })
 
-        return obj
+        return result
 
     },
 
