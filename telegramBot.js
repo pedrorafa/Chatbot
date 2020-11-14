@@ -9,7 +9,10 @@ initBot = () => {
 
     telegramBot.onText(/\/start/, (msg) => {
         let welcome = 'Oi, consigo responder dúvidas sobre a LGPD'
-        welcome += '\n\nGostaria de informar que gravamos as mensagens de nossa conversa, para me atualizar sobre os assuntos mais relevantes e aprimorar meus conhecimentos'
+        welcome += '\n\nInformamos que gravamos as mensagens de nossa conversa, com a única finalidade de me atualizar sobre os assuntos mais relevantes e aprimorar meus conhecimentos'
+                    +'\nNão salvamos nenhuma identificação do usuário'
+                    +'\nAs mensagens aqui não serão compartilhadas para nenhum terceiro e apenas serão utilizadas conforme já referido para consulta e apagadas após um período de 1 mês'
+                    +'\nEsteja ciente que ao utilizar o chat-bot, você concorda com esse compartilhamento e não é permitido a informação de dados pessoais'
         telegramBot.sendMessage(msg.chat.id, welcome);
     });
     telegramBot.on('message', (msg) => {
