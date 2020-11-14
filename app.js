@@ -71,12 +71,3 @@ server.post('/message', (req, res, next) => {
         })
         .catch(err => console.log(err))
 })
-
-//SWAGGER
-// var restifySwaggerJsdoc = require('restify-swagger-jsdoc');
-// restifySwaggerJsdoc.createSwaggerPage({
-//     title: 'API LGPDúvidas', 
-//     version: '1.0.0', 
-//     server: server, 
-//     path: '/docs/swagger' 
-// });
