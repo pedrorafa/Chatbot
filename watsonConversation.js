@@ -37,7 +37,7 @@ const endQuestions = [
     'Tem mais alguma dúvida?',
     'Quer perguntar mais alguma coisa?',
     'Tem mais dúvidas?',
-    'Posso reposnder mais alguma questão?',
+    'Posso responder mais alguma questão?',
     'Como posso continuar te ajudando?',
     'Tem mais perguntas?',
     'O que mais gostaria de saber?'
